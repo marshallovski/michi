@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #001e1d;
+  color: #e8e4e6;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  margin-left: 50px;
+}
+
+a {
+  font-size: 18px;
+  color: #ff8c00;
+}

@@ -1,0 +1,52 @@
+/*
+Thanks to happyhues.co for colors
+*/
+
+@font-face {
+  src: url('../assets/RobotoMono-Regular.ttf');
+  font-family: 'Roboto Mono';
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  text-align: center;
+  background-color: #001e1d;
+  color: #e8e4e6;
+}
+
+.btn-primary {
+  background-color: #f9bc60;
+  border: 0;
+  color: #001e1d;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+h1,
+h2,
+h3 {
+  color: #fffffe;
+}
+
+p,
+b {
+  color: #abd1c6;
+}
+
+a {
+  color: #e16162;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid #e16162;
+}
+
+.big-logo {
+  width: 350px;
+}

@@ -1,0 +1,7 @@
+{
+    "port": 7465,
+    "serviceConf": {
+        "name": "Michi",
+        "badge": "system"
+    }
+}

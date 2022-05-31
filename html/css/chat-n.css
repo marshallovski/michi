@@ -1,0 +1,247 @@
+@font-face {
+    src: url('../assets/RobotoMono-Regular.ttf');
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    src: url('../assets/MI.woff2');
+    font-family: 'MI';
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root {
+    --mainbradius: 5px;
+    --avatarbradius: 5px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', Monospace;
+}
+
+body {
+    background-color: #001e1d;
+    color: #e8e4e6;
+}
+
+.emptych {
+    text-align: center;
+    margin-top: 2em;
+}
+
+main {
+    overflow: hidden;
+}
+
+.emptych_img {
+    border-radius: var(--avatarbradius);
+    width: 100px;
+}
+
+.subtitle {
+    font-size: 12px;
+    color: gray;
+}
+
+.mention {
+    background: rgba(114, 137, 218, 0.4);
+    border-radius: var(--mainbradius);
+    padding: 2px;
+}
+
+.mi {
+    font-family: 'MI';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+header {
+    background-color: #757575;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    color: #eee;
+}
+
+.plbtn {
+    float: right;
+    cursor: pointer;
+}
+
+.menubtn {
+    cursor: pointer;
+    float: left;
+}
+
+.header_chname {
+    font-weight: bold;
+    padding: 4px;
+    border: 2px solid #dbdbdb;
+    border-radius: var(--mainbradius);
+}
+
+details,
+summary,
+input,
+button {
+    outline: none;
+}
+
+summary {
+    cursor: pointer;
+}
+
+details {
+    border: 1px solid #333;
+    padding: 4px;
+    width: 200px;
+    padding: 8px;
+    border-radius: var(--mainbradius)
+}
+
+
+.shade {
+    background: rgb(0, 0, 0, 0.6);
+    z-index: 998;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.mainmenu {
+    z-index: 999;
+    background-color: #777;
+    color: #eee;
+    position: fixed;
+    text-align: center;
+    height: 100vh;
+    padding: 8px;
+    width: 230px;
+}
+
+.plistmenu {
+    z-index: 999;
+    background-color: #777;
+    color: #eee;
+    position: fixed;
+    text-align: center;
+    height: 100vh;
+    padding: 8px;
+    right: 0;
+    width: 230px;
+    overflow: scroll;
+}
+
+.closebtn {
+    font-size: 16px;
+    border-radius: var(--mainbradius);
+    padding: 3px;
+    float: right;
+    cursor: pointer;
+    color: #555;
+    border: 1px solid #555;
+    font-size: 14px;
+}
+
+.closebtn:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+input[type="checkbox"] {
+    vertical-align: middle;
+    margin-right: 1em;
+}
+
+.plmembers>.mention {
+    margin-top: 6px;
+    border: 1px solid #fff;
+}
+
+.messages {
+    display: block;
+    margin: auto;
+    overflow-y: scroll;
+    height: 400px;
+    width: 500px;
+    scrollbar-width: thin;
+}
+
+.msg_author {
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 1em;
+}
+
+.msg_text {
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.msgbox {
+    text-align: center;
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    padding: 8px;
+}
+
+.msgbox_input {
+    padding: 8px;
+    border-radius: 5px;
+    width: 400px;
+    border: 1px solid gray;
+    background-color: #333;
+    color: #fff;
+    vertical-align: middle
+}
+
+.msgbox_input:hover {
+    border: 1px solid lightgray;
+}
+
+#sendmsgBtn {
+    display: none;
+    border: 0;
+    background-color: royalblue;
+    padding: 5px;
+    color: #fff;
+    line-height: 1.0;
+    border-radius: var(--mainbradius);
+}
+
+.msg {
+    margin-top: 1em;
+}
+
+.badge {
+    background-color: cornflowerblue;
+    border-radius: var(--mainbradius);
+    padding: 0 7px;
+    line-height: 1.0;
+    font-size: 10px;
+    vertical-align: 30%;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 760px) {
+    .messages {
+        width: 300px;
+        height: 330px;
+    }
+
+    #sendmsgBtn {
+        display: inline;
+    }
+
+    .msgbox_input {
+        width: 230px;
+    }
+}

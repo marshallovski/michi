@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "ws": "^8.6.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "michiws",
+  "version": "1.0.0",
+  "description": "Michi websocket server",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marshallovski/michi.git"
+  },
+  "keywords": [
+    "michi",
+    "websocket",
+    "chat"
+  ],
+  "author": "marshallovski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marshallovski/michi/issues"
+  },
+  "homepage": "https://github.com/marshallovski/michi#readme"
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/chat-n.css">
+  <title>chat - michi</title>
+  <link rel="icon" href="/assets/logo.png">
+
+  <link rel="apple-touch-icon" href="/assets/logo.png">
+
+  <meta name="title" content="Michi">
+  <meta name="description" content="Michi - minimal web chat for your needs.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://">
+  <meta property="og:title" content="Michi">
+  <meta property="og:description" content="Michi - minimal web chat for your needs.">
+  <meta property="og:image" content="/assets/logo.png">
+
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://">
+  <meta property="twitter:title" content="Michi">
+  <meta property="twitter:description" content="Michi - minimal web chat for your needs.">
+  <meta property="twitter:image" content="/assets/logo.png">
+  <style>
+    .shade,
+    .mainmenu,
+    .plistmenu {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>
+    <style>
+      main,
+      .shade {
+        display: none;
+      }
+
+      h1 {
+        text-align: center;
+      }
+    </style>
+    <h1>Sorry, but you need to enable JavaScript in your browser.</h1>
+  </noscript>
+  <script>
+    if (!window.localStorage) {
+      alert('Sorry but Michi required access to localStorage to read user config');
+    }
+
+    if (!window.localStorage.getItem('michi_nname') || !window.localStorage.getItem('michi_email')) {
+      window.location.href = './join.html';
+    }
+  </script>
+  <div class="shade"></div>
+  <main>
+    <div class="plistmenu">
+      <h3>
+        <span id="plist_memberscount"></span>
+        <i class="mi closebtn" id="plmenuCloseBtn">close</i>
+      </h3>
+      <br>
+      <div class="plmembers">
+        soon
+      </div>
+    </div>
+    <div class="mainmenu">
+      <h2>
+        Menu
+        <i class="mi closebtn" id="mmenuCloseBtn">close</i>
+      </h2>
+      <details>
+        <summary>Channels</summary>
+        Something small enough to escape casual notice.
+      </details>
+      <br>
+      <details>
+        <summary>Settings</summary>
+        <input type="checkbox" name="settings_theme" id="settings_theme">
+        <label for="settings_theme">Enable <b>light</b> theme?</label>
+        <br>
+        <input type="checkbox" name="settings_bradius" id="settings_bradius">
+        <label for="settings_bradius">Enable circled elements?</label>
+        <br>
+
+      </details>
+    </div>
+
+    <header>
+      <i class="mi menubtn" id="openMenu">menu</i>
+      <span class="header_chname">#general</span>
+      <i class="mi plbtn" id="openplistMenu">people</i>
+    </header>
+    <div class="emptych">
+      <img src="./assets/poggers.jpg" alt="Welcome to Michi!" class="emptych_img">
+      <h2>It's lonely in <span class="mention">#general</span>...</h2>
+      <br>
+      <p class="subtitle">
+        Maybe you try send some messages?
+      </p>
+    </div>
+    <div class="messages"></div>
+    <div class="msgbox">
+      <input type="text" id="maginp" class="msgbox_input" autocomplete="off" placeholder="Enter your message just here">
+      <button id="sendmsgBtn">
+        <i class="mi">send</i>
+      </button>
+    </div>
+  </main>
+  <script src="./js/chat.js"></script>
+  <script src="./js/chatmisc.js"></script>
+</body>
+
+</html>

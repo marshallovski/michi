@@ -1,0 +1,84 @@
+/*
+Thanks to happyhues.co for colors
+*/
+
+@font-face {
+  src: url('../assets/RobotoMono-Regular.ttf');
+  font-family: 'Roboto Mono';
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  text-align: center;
+  background-color: #001e1d;
+  color: #e8e4e6;
+}
+
+h1,
+h2,
+h3 {
+  color: #fffffe;
+}
+
+p,
+b {
+  color: #abd1c6;
+}
+
+a {
+  color: #e16162;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid #e16162;
+}
+
+input {
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 1em;
+  border: 0;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+.toswarn {
+  font-size: 10px;
+  margin-top: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#toslbl {
+  vertical-align: middle;
+}
+
+.btn-green {
+  background-color: #078080;
+  border: 0;
+  color: #eee;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.btn-green:disabled {
+  color: #222;
+  background-color: #144c1d;
+}
+
+#randnick {
+  font-size: 10px;
+}
+
+code {
+  background-color: #555;
+  border-radius: 3px;
+}
