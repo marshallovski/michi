@@ -7,6 +7,7 @@ const brswitcher = document.getElementById('settings_bradius');
 const plmcloseBtn = document.getElementById('plmenuCloseBtn');
 const plistMenu = document.querySelector('.plistmenu');
 const plistBtn = document.getElementById('openplistMenu');
+const fontSelect = $('#settings_font');
 
 menubtn.onclick = function () {
   document.querySelector('.shade').style.display = 'block';
@@ -69,4 +70,18 @@ plmcloseBtn.onclick = function () {
   document.querySelector('.shade').style.display = 'none';
   plistMenu.style.display = 'none';
 };
+
+if (!window.localStorage.getItem('michi_font')) {
+  window.localStorage.setItem('michi_font', btoa(fontSelect.value));
+}
+
+fontSelect.onchange = function () {
+  window.localStorage.setItem('michi_font', btoa(fontSelect.value));
+  fontSelect.setAttribute('data-font', fontSelect.value);
+  fontSelect.value = atob(window.localStorage.getItem('michi_font'));
+  document.querySelector('*').style.setProperty('--font', atob(window.localStorage.getItem('michi_font')));
+}
+
+document.querySelector('*').style.setProperty('--font', atob(window.localStorage.getItem('michi_font')));
+
 

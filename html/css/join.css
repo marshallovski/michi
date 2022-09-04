@@ -3,7 +3,7 @@ Thanks to happyhues.co for colors
 */
 
 @font-face {
-  src: url('../assets/RobotoMono-Regular.ttf');
+  src: url('../assets/RobotoMono-Regular.ttf') format('truetype');
   font-family: 'Roboto Mono';
 }
 
@@ -44,6 +44,10 @@ input {
   padding: 8px;
   margin-top: 1em;
   border: 0;
+}
+
+button {
+  cursor: pointer;
 }
 
 input:invalid {

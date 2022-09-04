@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/chat-n.css">
+  <link rel="stylesheet" href="./css/chat.css">
   <title>chat - michi</title>
   <link rel="icon" href="/assets/logo.png">
 
@@ -48,25 +48,21 @@
     <h1>Sorry, but you need to enable JavaScript in your browser.</h1>
   </noscript>
   <script>
-    if (!window.localStorage) {
+    if (!window.localStorage)
       alert('Sorry but Michi required access to localStorage to read user config');
-    }
 
-    if (!window.localStorage.getItem('michi_nname') || !window.localStorage.getItem('michi_email')) {
-      window.location.href = './join.html';
-    }
+    if (!window.localStorage.getItem('michi_nname') || !window.localStorage.getItem('michi_email'))
+      window.location.href = '/join.html';
   </script>
   <div class="shade"></div>
   <main>
     <div class="plistmenu">
       <h3>
-        <span id="plist_memberscount"></span>
+        <span id="plist_memberscount">Total 0 members</span>
         <i class="mi closebtn" id="plmenuCloseBtn">close</i>
       </h3>
       <br>
-      <div class="plmembers">
-        soon
-      </div>
+      <div class="plmembers" id="plmembers"></div>
     </div>
     <div class="mainmenu">
       <h2>
@@ -75,18 +71,22 @@
       </h2>
       <details>
         <summary>Channels</summary>
-        Something small enough to escape casual notice.
+        <div id="mainmenu-channels_channelslist"></div>
       </details>
       <br>
       <details>
         <summary>Settings</summary>
+        <label for="settings_theme" class="menu_label">Enable <b>light</b> theme</label>
         <input type="checkbox" name="settings_theme" id="settings_theme">
-        <label for="settings_theme">Enable <b>light</b> theme?</label>
         <br>
+        <label for="settings_bradius" class="menu_label">Enable circled elements</label>
         <input type="checkbox" name="settings_bradius" id="settings_bradius">
-        <label for="settings_bradius">Enable circled elements?</label>
         <br>
-
+        <label for="settings_font" class="menu_label">Font:</label>
+        <select id="settings_font" name="settings_font" autocomplete="off" data-font="'Noto Sans', sans-serif">
+          <option value="'Noto Sans', sans-serif" selected="">Noto Sans</option>
+          <option value="'Roboto Mono', monospace">Roboto Mono</option>
+        </select>
       </details>
     </div>
 
@@ -97,15 +97,17 @@
     </header>
     <div class="emptych">
       <img src="./assets/poggers.jpg" alt="Welcome to Michi!" class="emptych_img">
-      <h2>It's lonely in <span class="mention">#general</span>...</h2>
-      <br>
-      <p class="subtitle">
-        Maybe you try send some messages?
+      <h2>It's lonely in <span class="mention">general</span>...</h2>
+      <p class="subtitle" style="margin-top: 1em;">
+        Maybe you could try sending some messages?
       </p>
     </div>
     <div class="messages"></div>
+
     <div class="msgbox">
-      <input type="text" id="maginp" class="msgbox_input" autocomplete="off" placeholder="Enter your message just here">
+      
+      <textarea type="text" id="msginput" class="msgbox_input" autocomplete="off" maxlength="216"
+        placeholder="Enter your message here"></textarea>
       <button id="sendmsgBtn">
         <i class="mi">send</i>
       </button>

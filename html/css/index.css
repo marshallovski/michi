@@ -1,9 +1,9 @@
 /*
-Thanks to happyhues.co for colors
+  Thanks to happyhues.co for colors
 */
 
 @font-face {
-  src: url('../assets/RobotoMono-Regular.ttf');
+  src: url('../assets/RobotoMono-Regular.ttf') format('truetype');
   font-family: 'Roboto Mono';
 }
 
@@ -24,6 +24,7 @@ body {
   border: 0;
   color: #001e1d;
   padding: 8px;
+  cursor: pointer;
   border-radius: 3px;
 }
 
@@ -49,4 +50,9 @@ a:hover {
 
 .big-logo {
   width: 350px;
+}
+
+#joinbtn {
+  margin-top: 2em;
+  font-size: 18px;
 }

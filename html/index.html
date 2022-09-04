@@ -28,19 +28,18 @@
 
 <body>
   <img src="/assets/logo.png" alt="logo" class="big-logo">
-  <h1>michi</h1>
+  <h1>Michi</h1>
   <p>
     Just minimal chat in your browser
   </p>
 
   <a href="./join.html">
-    <button class="btn-primary" style="margin-top: 2em; font-size: 18px;">
+    <button class="btn-primary" id="joinbtn">
       Join now
     </button>
   </a>
-
   <script>
-    document.querySelector('.btn-primary').textContent = window.localStorage.getItem('michi_nname') && window.localStorage.getItem('michi_email') ? 'Open in browser' : 'Join now';
+    document.getElementById('joinbtn').textContent = window.localStorage.getItem('michi_nname') && window.localStorage.getItem('michi_email') ? 'Open in browser' : 'Join now';
   </script>
 </body>
 

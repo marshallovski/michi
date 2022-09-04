@@ -52,7 +52,7 @@
         alert('Sorry but Michi required access to localStorage to write user data');
       }
 
-      if (window.localStorage.getItem('michi_nname') || window.localStorage.getItem('michi_email')) {
+      if (window.localStorage.getItem('michi_nname') && window.localStorage.getItem('michi_email')) {
         window.location.href = './chat.html';
       }
     </script>

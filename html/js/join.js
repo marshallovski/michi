@@ -8,7 +8,7 @@ function htmlEncode(str) {
   });
 }
 
-submBtn.onclick = function () {
+submBtn.onclick = async () => {
   let bw = [
     'nigger',
     'nigga',
@@ -29,19 +29,38 @@ submBtn.onclick = function () {
     'пидор',
     'блядь',
     'хуй',
-    'хуесос'
-  ];
+    'хуесос',
+    'срака',
+    'русня',
+    'москаль',
+    'balls',
+    'gay',
+    'faggot',
+    'пидорасина',
+    'нигер',
+    'негр',
+    'ниггер',
+    'негритос',
+    'nigg',
+    'nigg er',
+    'sjw',
+    'lgbt',
+    'Ubisoft',
+    'blowjob',
+    'xi',
+    'nigger alarm'
+  ]; // updated at 23.08.2022
 
-  if (!nnBox.value) {
-    alert('Enter valid nickname');
-  }
+  if (!nnBox.value)
+    return alert('Enter valid nickname');
 
-  if (!emailBox.value) {
-    alert('Enter valid email');
-  }
+
+  if (!emailBox.value)
+    return alert('Enter valid email');
+
 
   bw.forEach(word => {
-    if (nnBox.value.includes(word)) {
+    if (nnBox.value.includes(word) || nnBox.value.includes(word.toString().toUpperCase())) {
       alert(`Banned word: "${word}"`);
       nnBox.value = '';
       nnBox.validity.valid = false;
@@ -60,5 +79,4 @@ submBtn.onclick = function () {
   }
 }
 
-const randname = document.getElementById('randnick');
-randname.innerHTML = `or, try fresh, random generated nickname: <code><b>${(Math.random() + 1).toString(36).substr(7)}</b></code>`;
+document.getElementById('randnick').innerHTML = `or, try fresh, random generated nickname: <code><b>${Math.random().toString(36).slice('5')}</b></code>`;
