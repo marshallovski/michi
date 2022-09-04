@@ -1,13 +1,15 @@
 {
   "dependencies": {
+    "edit-json-file": "^1.7.0",
     "ws": "^8.6.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon -e js server.js"
   },
-  "name": "michiws",
+  "name": "michiserver",
   "version": "1.0.0",
-  "description": "Michi websocket server",
+  "description": "Michi chat server",
   "main": "server.js",
   "repository": {
     "type": "git",

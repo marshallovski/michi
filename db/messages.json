@@ -1,0 +1,1083 @@
+{
+  "1661954360346": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "31.08.2022, 16:59:20"
+  },
+  "1661954376471": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "31.08.2022, 16:59:36"
+  },
+  "1661954396169": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "31.08.2022, 16:59:56"
+  },
+  "1661954475290": {
+    "data": {
+      "msg": "f",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "31.08.2022, 17:01:15"
+  },
+  "1661954578315": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "31.08.2022, 17:02:58"
+  },
+  "1661954605444": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "31.08.2022, 17:03:25"
+  },
+  "1661954623293": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "31.08.2022, 17:03:43"
+  },
+  "1661955436022": {
+    "data": {
+      "msg": "haha",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "31.08.2022, 17:17:16"
+  },
+  "1661955473907": {
+    "data": {
+      "msg": "hehhe",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "31.08.2022, 17:17:53"
+  },
+  "1661955576956": {
+    "data": {
+      "msg": "fdf",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "31.08.2022, 17:19:36"
+  },
+  "1661955686826": {
+    "data": {
+      "msg": "hehe gaga",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "31.08.2022, 17:21:26"
+  },
+  "1661955890762": {
+    "data": {
+      "msg": "функционирует же?",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "31.08.2022, 17:24:50"
+  },
+  "1661955891537": {
+    "data": {
+      "msg": "ок",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "31.08.2022, 17:24:51"
+  },
+  "1662204503174": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "03.09.2022, 14:28:23"
+  },
+  "1662204503515": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "03.09.2022, 14:28:23"
+  },
+  "1662204503823": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "03.09.2022, 14:28:23"
+  },
+  "1662204504135": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "03.09.2022, 14:28:24"
+  },
+  "1662204504456": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "03.09.2022, 14:28:24"
+  },
+  "1662204504758": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "03.09.2022, 14:28:24"
+  },
+  "1662204505070": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "03.09.2022, 14:28:25"
+  },
+  "1662204505349": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "03.09.2022, 14:28:25"
+  },
+  "1662204505632": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "03.09.2022, 14:28:25"
+  },
+  "1662204505916": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "03.09.2022, 14:28:25"
+  },
+  "1662204506186": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "03.09.2022, 14:28:26"
+  },
+  "1662204506471": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "03.09.2022, 14:28:26"
+  },
+  "1662204506753": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "03.09.2022, 14:28:26"
+  },
+  "1662204507032": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "03.09.2022, 14:28:27"
+  },
+  "1662204514942": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "03.09.2022, 14:28:34"
+  },
+  "1662204985800": {
+    "data": {
+      "msg": "fdfd\n\n",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "03.09.2022, 14:36:25"
+  },
+  "1662204995364": {
+    "data": {
+      "msg": "fddffdfd\n\n\n\n\n",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "03.09.2022, 14:36:35"
+  },
+  "1662204997177": {
+    "data": {
+      "msg": "         ",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "03.09.2022, 14:36:37"
+  },
+  "1662205019470": {
+    "data": {
+      "msg": " ",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "03.09.2022, 14:36:59"
+  },
+  "1662205045410": {
+    "data": {
+      "msg": " ",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "03.09.2022, 14:37:25"
+  },
+  "1662205054230": {
+    "data": {
+      "msg": " ",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "03.09.2022, 14:37:34"
+  },
+  "1662205060379": {
+    "data": {
+      "msg": "fdffdfd",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "03.09.2022, 14:37:40"
+  },
+  "1662205206877": {
+    "data": {
+      "msg": "ggfgf\n",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "03.09.2022, 14:40:06"
+  },
+  "1662205327888": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "03.09.2022, 14:42:07"
+  },
+  "1662205507962": {
+    "data": {
+      "msg": "hehe jaha",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "03.09.2022, 14:45:07"
+  },
+  "1662205511051": {
+    "data": {
+      "msg": "<script>alert(1)</script>",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "03.09.2022, 14:45:11"
+  },
+  "1662205515690": {
+    "data": {
+      "msg": "\"><script>alert(1)</script>",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "03.09.2022, 14:45:15"
+  },
+  "1662205518245": {
+    "data": {
+      "msg": "<svg/onload = alert(1);>",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "03.09.2022, 14:45:18"
+  },
+  "1662205520904": {
+    "data": {
+      "msg": "<img src=\"x\" onerror=\"alert(1);\">",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "03.09.2022, 14:45:20"
+  },
+  "1662205529278": {
+    "data": {
+      "msg": "<img src=\"x\" onerror=\"alert(1);\"><img src=\"x\" onerror=\"alert(1);\"><img src=\"x\" onerror=\"alert(1);\"><img src=\"x\" onerror=\"alert(1);\"><img src=\"x\" onerror=\"alert(1);\"><img src=\"x\" onerror=\"alert(1);\"><img src=\"x\" onerr",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "03.09.2022, 14:45:29"
+  },
+  "1662205531932": {
+    "data": {
+      "msg": "<img src=\"x\" onerror=\"alert(1);\"><img src=\"x\" onerror=\"alert(1);\"><img src=\"x\" onerror=\"alert(1);\"><img src=\"x\" onerror=\"alert(1);\"><img src=\"x\" onerror=\"alert(1);\"><img src=\"x\" onerror=\"alert(1);\"><img src=\"x\" onerr",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "03.09.2022, 14:45:31"
+  },
+  "1662205534321": {
+    "data": {
+      "msg": "<img src=\"x\" onerror=\"alert(1);\"><img src=\"x\" onerror=\"alert(1);\"><img src=\"x\" onerror=\"alert(1);\"><img src=\"x\" onerror=\"alert(1);\"><img src=\"x\" onerror=\"alert(1);\"><img src=\"x\" onerror=\"alert(1);\"><img src=\"x\" onerr",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "03.09.2022, 14:45:34"
+  },
+  "1662205642097": {
+    "data": {
+      "msg": "fd",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "03.09.2022, 14:47:22"
+  },
+  "1662206553128": {
+    "data": {
+      "msg": "how 're u doin' today?",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "03.09.2022, 15:02:33"
+  },
+  "1662286408691": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "04.09.2022, 13:13:28"
+  },
+  "1662290186638": {
+    "data": {
+      "msg": "привет. это тестовое сообщение! как дела?",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:16:26"
+  },
+  "1662290521943": {
+    "data": {
+      "msg": "это тестовое сообщение! как дела?",
+      "author": "bWFyc2hhbGw=",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:22:01"
+  },
+  "1662292336640": {
+    "data": {
+      "msg": "зхс гхоул деад инсиде 100-7",
+      "author": "JiMxMDc5OyYjMTA5MzsmIzEwODk7ICYjMTA3NTsmIzEwOTM7JiMxMDg2OyYjMTA5MTsmIzEwODM7ICYjMTA3NjsmIzEwNzc7JiMxMDcyOyYjMTA3NjsgJiMxMDgwOyYjMTA4NTsmIzEwODk7JiMxMDgwOyYjMTA3NjsmIzEwNzc7IDEwMCYjNDU7Nw==",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:52:16"
+  },
+  "1662292350358": {
+    "data": {
+      "msg": "АХАХХАХАХА",
+      "author": "JiMxMDc5OyYjMTA5MzsmIzEwODk7ICYjMTA3NTsmIzEwOTM7JiMxMDg2OyYjMTA5MTsmIzEwODM7ICYjMTA3NjsmIzEwNzc7JiMxMDcyOyYjMTA3NjsgJiMxMDgwOyYjMTA4NTsmIzEwODk7JiMxMDgwOyYjMTA3NjsmIzEwNzc7IDEwMCYjNDU7Nw==",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:52:30"
+  },
+  "1662292351277": {
+    "data": {
+      "msg": "ладно",
+      "author": "JiMxMDc5OyYjMTA5MzsmIzEwODk7ICYjMTA3NTsmIzEwOTM7JiMxMDg2OyYjMTA5MTsmIzEwODM7ICYjMTA3NjsmIzEwNzc7JiMxMDcyOyYjMTA3NjsgJiMxMDgwOyYjMTA4NTsmIzEwODk7JiMxMDgwOyYjMTA3NjsmIzEwNzc7IDEwMCYjNDU7Nw==",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:52:31"
+  },
+  "1662292413784": {
+    "data": {
+      "msg": "гуль",
+      "author": "JiMxMDc5OyYjMTA5MzsmIzEwODk7ICYjMTA3NTsmIzEwOTM7JiMxMDg2OyYjMTA5MTsmIzEwODM7ICYjMTA3NjsmIzEwNzc7JiMxMDcyOyYjMTA3NjsgJiMxMDgwOyYjMTA4NTsmIzEwODk7JiMxMDgwOyYjMTA3NjsmIzEwNzc7IDEwMCYjNDU7Nw==",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:53:33"
+  },
+  "1662292434802": {
+    "data": {
+      "msg": "п",
+      "author": "JiMxMDc5OyYjMTA5MzsmIzEwODk7ICYjMTA3NTsmIzEwOTM7JiMxMDg2OyYjMTA5MTsmIzEwODM7ICYjMTA3NjsmIzEwNzc7JiMxMDcyOyYjMTA3NjsgJiMxMDgwOyYjMTA4NTsmIzEwODk7JiMxMDgwOyYjMTA3NjsmIzEwNzc7IDEwMCYjNDU7Nw==",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:53:54"
+  },
+  "1662292435187": {
+    "data": {
+      "msg": "а",
+      "author": "JiMxMDc5OyYjMTA5MzsmIzEwODk7ICYjMTA3NTsmIzEwOTM7JiMxMDg2OyYjMTA5MTsmIzEwODM7ICYjMTA3NjsmIzEwNzc7JiMxMDcyOyYjMTA3NjsgJiMxMDgwOyYjMTA4NTsmIzEwODk7JiMxMDgwOyYjMTA3NjsmIzEwNzc7IDEwMCYjNDU7Nw==",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:53:55"
+  },
+  "1662292435346": {
+    "data": {
+      "msg": "а",
+      "author": "JiMxMDc5OyYjMTA5MzsmIzEwODk7ICYjMTA3NTsmIzEwOTM7JiMxMDg2OyYjMTA5MTsmIzEwODM7ICYjMTA3NjsmIzEwNzc7JiMxMDcyOyYjMTA3NjsgJiMxMDgwOyYjMTA4NTsmIzEwODk7JiMxMDgwOyYjMTA3NjsmIzEwNzc7IDEwMCYjNDU7Nw==",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:53:55"
+  },
+  "1662292519792": {
+    "data": {
+      "msg": "fd",
+      "author": "JiMxMDc5OyYjMTA5MzsmIzEwODk7ICYjMTA3NTsmIzEwOTM7JiMxMDg2OyYjMTA5MTsmIzEwODM7ICYjMTA3NjsmIzEwNzc7JiMxMDcyOyYjMTA3NjsgJiMxMDgwOyYjMTA4NTsmIzEwODk7JiMxMDgwOyYjMTA3NjsmIzEwNzc7IDEwMCYjNDU7Nw==",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:55:19"
+  },
+  "1662292532672": {
+    "data": {
+      "msg": "0",
+      "author": "JiMxMDc5OyYjMTA5MzsmIzEwODk7ICYjMTA3NTsmIzEwOTM7JiMxMDg2OyYjMTA5MTsmIzEwODM7ICYjMTA3NjsmIzEwNzc7JiMxMDcyOyYjMTA3NjsgJiMxMDgwOyYjMTA4NTsmIzEwODk7JiMxMDgwOyYjMTA3NjsmIzEwNzc7IDEwMCYjNDU7Nw==",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:55:32"
+  },
+  "1662292542885": {
+    "data": {
+      "msg": "f",
+      "author": "JiMxMDc5OyYjMTA5MzsmIzEwODk7ICYjMTA3NTsmIzEwOTM7JiMxMDg2OyYjMTA5MTsmIzEwODM7ICYjMTA3NjsmIzEwNzc7JiMxMDcyOyYjMTA3NjsgJiMxMDgwOyYjMTA4NTsmIzEwODk7JiMxMDgwOyYjMTA3NjsmIzEwNzc7IDEwMCYjNDU7Nw==",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:55:42"
+  },
+  "1662292559396": {
+    "data": {
+      "msg": "joined",
+      "author": "JiMxMDc5OyYjMTA5MzsmIzEwODk7ICYjMTA3NTsmIzEwOTM7JiMxMDg2OyYjMTA5MTsmIzEwODM7ICYjMTA3NjsmIzEwNzc7JiMxMDcyOyYjMTA3NjsgJiMxMDgwOyYjMTA4NTsmIzEwODk7JiMxMDgwOyYjMTA3NjsmIzEwNzc7IDEwMCYjNDU7Nw==",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:55:59"
+  },
+  "1662292562499": {
+    "data": {
+      "msg": "да",
+      "author": "JiMxMDc5OyYjMTA5MzsmIzEwODk7ICYjMTA3NTsmIzEwOTM7JiMxMDg2OyYjMTA5MTsmIzEwODM7ICYjMTA3NjsmIzEwNzc7JiMxMDcyOyYjMTA3NjsgJiMxMDgwOyYjMTA4NTsmIzEwODk7JiMxMDgwOyYjMTA3NjsmIzEwNzc7IDEwMCYjNDU7Nw==",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:56:02"
+  },
+  "1662292564753": {
+    "data": {
+      "msg": " зхс гхоул деад инсиде 100-7 04.09.2022, 14:55:59 ",
+      "author": "JiMxMDc5OyYjMTA5MzsmIzEwODk7ICYjMTA3NTsmIzEwOTM7JiMxMDg2OyYjMTA5MTsmIzEwODM7ICYjMTA3NjsmIzEwNzc7JiMxMDcyOyYjMTA3NjsgJiMxMDgwOyYjMTA4NTsmIzEwODk7JiMxMDgwOyYjMTA3NjsmIzEwNzc7IDEwMCYjNDU7Nw==",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:56:04"
+  },
+  "1662292569582": {
+    "data": {
+      "msg": " Welcomer system 04.09.2022, 14:55:51\n&#1079;&#1093;&#1089; &#1075;&#1093;&#1086;&#1091;&#1083; &#1076;&#1077;&#1072;&#1076; &#1080;&#1085;&#1089;&#1080;&#1076;&#1077; 100&#45;7 joined\n\nзхс гхоул деад инсиде 100-7 04",
+      "author": "JiMxMDc5OyYjMTA5MzsmIzEwODk7ICYjMTA3NTsmIzEwOTM7JiMxMDg2OyYjMTA5MTsmIzEwODM7ICYjMTA3NjsmIzEwNzc7JiMxMDcyOyYjMTA3NjsgJiMxMDgwOyYjMTA4NTsmIzEwODk7JiMxMDgwOyYjMTA3NjsmIzEwNzc7IDEwMCYjNDU7Nw==",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:56:09"
+  },
+  "1662292576321": {
+    "data": {
+      "msg": "ZXC GHOUL DEAD INSIDE 1000-7\n — \nToday at 3:53 PM\nПока ниче\nНа блате сидеть\nЯ сделаю родмап где будет чё надо",
+      "author": "JiMxMDc5OyYjMTA5MzsmIzEwODk7ICYjMTA3NTsmIzEwOTM7JiMxMDg2OyYjMTA5MTsmIzEwODM7ICYjMTA3NjsmIzEwNzc7JiMxMDcyOyYjMTA3NjsgJiMxMDgwOyYjMTA4NTsmIzEwODk7JiMxMDgwOyYjMTA3NjsmIzEwNzc7IDEwMCYjNDU7Nw==",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:56:16"
+  },
+  "1662292597118": {
+    "data": {
+      "msg": "<script>alert(1)</script>",
+      "author": "JiMxMDc5OyYjMTA5MzsmIzEwODk7ICYjMTA3NTsmIzEwOTM7JiMxMDg2OyYjMTA5MTsmIzEwODM7ICYjMTA3NjsmIzEwNzc7JiMxMDcyOyYjMTA3NjsgJiMxMDgwOyYjMTA4NTsmIzEwODk7JiMxMDgwOyYjMTA3NjsmIzEwNzc7IDEwMCYjNDU7Nw==",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:56:37"
+  },
+  "1662292642803": {
+    "data": {
+      "msg": "f",
+      "author": "JiMxMDc5OyYjMTA5MzsmIzEwODk7ICYjMTA3NTsmIzEwOTM7JiMxMDg2OyYjMTA5MTsmIzEwODM7ICYjMTA3NjsmIzEwNzc7JiMxMDcyOyYjMTA3NjsgJiMxMDgwOyYjMTA4NTsmIzEwODk7JiMxMDgwOyYjMTA3NjsmIzEwNzc7IDEwMCYjNDU7Nw==",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:57:22"
+  },
+  "1662292646363": {
+    "data": {
+      "msg": "пиздец",
+      "author": "JiMxMDc5OyYjMTA5MzsmIzEwODk7ICYjMTA3NTsmIzEwOTM7JiMxMDg2OyYjMTA5MTsmIzEwODM7ICYjMTA3NjsmIzEwNzc7JiMxMDcyOyYjMTA3NjsgJiMxMDgwOyYjMTA4NTsmIzEwODk7JiMxMDgwOyYjMTA3NjsmIzEwNzc7IDEwMCYjNDU7Nw==",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:57:26"
+  },
+  "1662292674096": {
+    "data": {
+      "msg": "да*?",
+      "author": "JiM2MDtzY3JpcHQmIzYyO2FsZXJ0JiM0MDsxJiM0MTsmIzYwOyYjNDc7c2NyaXB0JiM2Mjs=",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:57:54"
+  },
+  "1662292674487": {
+    "data": {
+      "msg": "а",
+      "author": "JiM2MDtzY3JpcHQmIzYyO2FsZXJ0JiM0MDsxJiM0MTsmIzYwOyYjNDc7c2NyaXB0JiM2Mjs=",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:57:54"
+  },
+  "1662292674630": {
+    "data": {
+      "msg": "а",
+      "author": "JiM2MDtzY3JpcHQmIzYyO2FsZXJ0JiM0MDsxJiM0MTsmIzYwOyYjNDc7c2NyaXB0JiM2Mjs=",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:57:54"
+  },
+  "1662292674756": {
+    "data": {
+      "msg": "а",
+      "author": "JiM2MDtzY3JpcHQmIzYyO2FsZXJ0JiM0MDsxJiM0MTsmIzYwOyYjNDc7c2NyaXB0JiM2Mjs=",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:57:54"
+  },
+  "1662292675231": {
+    "data": {
+      "msg": "\nааа",
+      "author": "JiM2MDtzY3JpcHQmIzYyO2FsZXJ0JiM0MDsxJiM0MTsmIzYwOyYjNDc7c2NyaXB0JiM2Mjs=",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:57:55"
+  },
+  "1662292675365": {
+    "data": {
+      "msg": "а",
+      "author": "JiM2MDtzY3JpcHQmIzYyO2FsZXJ0JiM0MDsxJiM0MTsmIzYwOyYjNDc7c2NyaXB0JiM2Mjs=",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:57:55"
+  },
+  "1662292676049": {
+    "data": {
+      "msg": "<script>alert(1)</script>",
+      "author": "JiM2MDtzY3JpcHQmIzYyO2FsZXJ0JiM0MDsxJiM0MTsmIzYwOyYjNDc7c2NyaXB0JiM2Mjs=",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 14:57:56"
+  },
+  "1662292782622": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "04.09.2022, 14:59:42"
+  },
+  "1662293012706": {
+    "data": {
+      "msg": "fd",
+      "author": "Z2VuaXVz",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 15:03:32"
+  },
+  "1662293017759": {
+    "data": {
+      "msg": " ",
+      "author": "Z2VuaXVz",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 15:03:37"
+  },
+  "1662293021032": {
+    "data": {
+      "msg": "      ",
+      "author": "Z2VuaXVz",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 15:03:41"
+  },
+  "1662293162410": {
+    "data": {
+      "msg": " ",
+      "author": "Z2VuaXVz",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 15:06:02"
+  },
+  "1662293192311": {
+    "data": {
+      "msg": " ",
+      "author": "Z2VuaXVz",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 15:06:32"
+  },
+  "1662293589889": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "04.09.2022, 15:13:09"
+  },
+  "1662293617965": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "04.09.2022, 15:13:37"
+  },
+  "1662293670937": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "04.09.2022, 15:14:30"
+  },
+  "1662293674242": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "04.09.2022, 15:14:34"
+  },
+  "1662293680010": {
+    "data": {
+      "msg": " ",
+      "author": "Z2VuaXVz",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 15:14:40"
+  },
+  "1662293691922": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "04.09.2022, 15:14:51"
+  },
+  "1662293817401": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "04.09.2022, 15:16:57"
+  },
+  "1662293857140": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "04.09.2022, 15:17:37"
+  },
+  "1662293886350": {
+    "data": {
+      "msg": "     ",
+      "author": "Z2VuaXVz",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 15:18:06"
+  },
+  "1662293893811": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "04.09.2022, 15:18:13"
+  },
+  "1662293897373": {
+    "data": {
+      "msg": "  ",
+      "author": "Z2VuaXVz",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 15:18:17"
+  },
+  "1662293903349": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "04.09.2022, 15:18:23"
+  },
+  "1662293911294": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "04.09.2022, 15:18:31"
+  },
+  "1662293915708": {
+    "data": {
+      "msg": "   ",
+      "author": "Z2VuaXVz",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 15:18:35"
+  },
+  "1662293938206": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "04.09.2022, 15:18:58"
+  },
+  "1662293941520": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "04.09.2022, 15:19:01"
+  },
+  "1662294088248": {
+    "data": {
+      "msg": "jp",
+      "author": "Z2VuaXVz",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 15:21:28"
+  },
+  "1662294158350": {
+    "data": {
+      "msg": "https://g.g",
+      "author": "Z2VuaXVz",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 15:22:38"
+  },
+  "1662294218533": {
+    "data": {
+      "msg": "fdsf",
+      "author": "Z2VuaXVz",
+      "type": "msg"
+    },
+    "time": "04.09.2022, 15:23:38"
+  },
+  "1662294343913": {
+    "data": {
+      "type": "msg",
+      "msg": "f",
+      "author": "Z2VuaXVz"
+    },
+    "time": "04.09.2022, 15:25:43"
+  },
+  "1662294609798": {
+    "data": {
+      "type": "msg",
+      "msg": "dff\nfdd",
+      "author": "Z2VuaXVz"
+    },
+    "time": "04.09.2022, 15:30:09"
+  },
+  "1662294628268": {
+    "data": {
+      "type": "msg",
+      "msg": "          \n\n\n\n \n\nf",
+      "author": "Z2VuaXVz"
+    },
+    "time": "04.09.2022, 15:30:28"
+  },
+  "1662294675490": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "04.09.2022, 15:31:15"
+  },
+  "1662294691920": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "04.09.2022, 15:31:31"
+  },
+  "1662294724995": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "04.09.2022, 15:32:04"
+  },
+  "1662294747548": {
+    "data": {
+      "name": "Michi",
+      "motd": "The official Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "04.09.2022, 15:32:27"
+  },
+  "1662296366434": {
+    "data": {
+      "type": "msg",
+      "msg": "gf",
+      "author": "Z2VuaXVz"
+    },
+    "time": "04.09.2022, 15:59:26"
+  },
+  "1662296626896": {
+    "data": {
+      "type": "msg",
+      "msg": "тест",
+      "author": "bWFyc2hhbGxvdnNraQ=="
+    },
+    "time": "04.09.2022, 16:03:46"
+  },
+  "1662307941356": {
+    "data": {
+      "name": "Michi",
+      "motd": "The unofficial Michi server",
+      "members": 0,
+      "icon": "D:/other/projects/michi/michiws/assets/icon.png",
+      "type": "newsrv",
+      "ip": "127.0.0.1:7465",
+      "protocol": "ws://",
+      "author": "Michi@127.0.0.1:7465"
+    },
+    "time": "04.09.2022, 19:12:21"
+  }
+}

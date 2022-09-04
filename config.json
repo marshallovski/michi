@@ -1,7 +1,18 @@
 {
+    "host": "localhost",
     "port": 7465,
-    "serviceConf": {
+    "protocol": "ws://",
+    "logfilePath": "./db/messages.json",
+    "serversPath": "./db/servers.json",
+    "service": {
         "name": "Michi",
-        "badge": "system"
+        "motd": "The unofficial Michi server",
+        "welcomerName": "Welcomer",
+        "badge": "system",
+        "randPhrases": true,
+        "randPhraseInterval": 300000,
+        "autoSubmittingInterval":  21600000,
+        "msglogging": false,
+        "fullLogging": true
     }
 }
