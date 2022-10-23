@@ -3,6 +3,7 @@
     font-family: 'Roboto Mono';
     font-style: normal;
     font-weight: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -17,18 +18,41 @@
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: normal;
+    font-display: swap;
 }
 
 :root {
     --mainbradius: 5px;
     --avatarbradius: 5px;
     --font: 'Noto Sans', sans-serif;
+    --headerBg: #222;
+    --headerClr: #eee;
 }
 
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-family: var(--font);
+    transition: all 300ms;
+}
+
+@media (prefers-reduced-motion) {
+    * {
+        transition: none;
+    }
+}
+
+select,
+option,
+button {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+    color: #fff;
 }
 
 body {
@@ -48,6 +72,7 @@ main {
 .emptych_img {
     border-radius: var(--avatarbradius);
     width: 100px;
+    margin-bottom: 10px;
 }
 
 .subtitle {
@@ -67,14 +92,16 @@ main {
     font-weight: normal;
     font-size: 24px;
     vertical-align: middle;
+    user-select: none;
 }
 
 header {
-    background-color: #757575;
+    background-color: var(--headerBg);
     padding: 10px;
     text-align: center;
-    border-bottom: 1px solid #fff;
-    color: #eee;
+    color: var(--headerClr);
+    position: sticky;
+    top: 0;
 }
 
 .plbtn {
@@ -99,13 +126,16 @@ summary,
 input,
 button,
 select,
-textarea {
+textarea,
+img {
     outline: none;
+    border: 0;
 }
 
 summary {
     cursor: pointer;
     padding: .3em;
+    user-select: none;
 }
 
 details[open] summary {
@@ -130,6 +160,7 @@ details {
 
 .menu_label {
     font-size: 10px;
+    user-select: none;
 }
 
 #settings_font {
@@ -139,11 +170,6 @@ details {
     border-radius: 5px;
     color: #dbdbdb;
     padding: 2px;
-}
-
-select,
-option {
-    cursor: pointer;
 }
 
 .shade {
@@ -156,8 +182,8 @@ option {
 
 .mainmenu {
     z-index: 999;
-    background-color: #212121;
-    color: #eee;
+    background-color: #252525;
+    color: #dbdbdb;
     position: fixed;
     text-align: center;
     height: 100vh;
@@ -188,15 +214,16 @@ option {
 
 .plistmenu {
     z-index: 999;
-    background-color: #212121;
-    color: #eee;
+    background-color: #252525;
+    color: #dbdbdb;
     position: fixed;
     text-align: center;
     height: 100vh;
     padding: 8px;
     right: 0;
-    width: 230px;
+    width: 245px;
     overflow: scroll;
+    scrollbar-width: thin;
 }
 
 .closebtn {
@@ -229,7 +256,7 @@ input[type="checkbox"] {
     display: block;
     margin: auto;
     overflow-y: scroll;
-    height: 400px;
+    height: 450px;
     width: 500px;
     scrollbar-width: thin;
 }
@@ -247,6 +274,7 @@ input[type="checkbox"] {
 }
 
 .msgbox {
+    padding: 16px;
     text-align: center;
     position: fixed;
     bottom: 5px;
@@ -256,12 +284,12 @@ input[type="checkbox"] {
 
 .msgbox_input {
     padding: 8px;
-    border-radius: 5px;
+    border-radius: var(--mainbradius);
     width: 400px;
     font-size: 14px;
     border: 1px solid #555;
-    background-color: #333;
-    color: #fff;
+    background-color: var(--headerBg);
+    color: var(--headerClr);
     vertical-align: middle;
     resize: none;
     scrollbar-width: thin;
@@ -275,14 +303,25 @@ input[type="checkbox"] {
     border: 1px solid #999;
 }
 
+.msgbox_input:disabled {
+    border: 0;
+    cursor: not-allowed;
+}
+
 #sendmsgBtn {
     display: none;
     border: 0;
     background-color: royalblue;
     padding: 5px;
     color: #fff;
+    margin-left: .2em;
     line-height: 1.0;
     border-radius: var(--mainbradius);
+}
+
+#sendmsgBtn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
 }
 
 .msg {
@@ -299,18 +338,122 @@ input[type="checkbox"] {
 }
 
 .badge {
-    background-color: cornflowerblue;
+    background-color: dodgerblue;
     border-radius: var(--mainbradius);
     padding: 1px 7px;
     line-height: 1.0;
     font-size: 10px;
+    margin-left: 1em;
     color: #dbdbdb;
     text-align: center;
     white-space: nowrap;
     vertical-align: 1px;
+    cursor: default;
+    user-select: none;
+    font-weight: bold;
 }
 
-@media only screen and (max-width: 800px) {
+.selectEmojiBtn {
+    background-color: transparent;
+    line-height: 1.0;
+    padding: 3px;
+    border-radius: var(--mainbradius);
+    color: var(--headerClr);
+    margin-left: -5em;
+}
+
+.selectFileBtn {
+    background-color: transparent;
+    line-height: 1.0;
+    padding: 3px;
+    border-radius: var(--mainbradius);
+    color: var(--headerClr);
+    margin-left: -3em;
+}
+
+#mfileuploadform {
+    display: none;
+}
+
+.selectEmojiBtn:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.msgbox_emojiMenu {
+    display: none;
+    background-color: var(--headerBg);
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    padding: 16px;
+    border: 1px solid #555;
+    border-radius: var(--mainbradius);
+    position: fixed;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.msgbox_emojiMenu_emoji {
+    width: 35px;
+    margin: 8px;
+}
+
+.msgbox_emojiMenu_emoji:hover {
+    transform: scale(1.5);
+    padding: 3px;
+    border-radius: var(--mainbradius);
+    cursor: pointer;
+}
+
+.msg_fileEmbed {
+    background-color: var(--headerBg);
+    border: 1px solid #555;
+    padding: 4px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.msg_fileEmbed-downloadIcon {
+    font-size: 20px;
+    color: dodgerblue;
+}
+
+.msg_fileEmbed-fileSize {
+    color: #777;
+    vertical-align: 10%;
+    margin-left: 5px;
+}
+
+.msg_picture {
+    max-width: 290px;
+    max-height: 280px;
+    border-radius: 8px;
+}
+
+.msg_video {
+    max-width: 250px;
+    max-height: 270px;
+    border-radius: 3px;
+}
+
+.msgbox_fileuploadProgress {
+    display: none;
+    background-color: lightcoral;
+    font-size: 12px;
+    margin: auto;
+    color: #333;
+    width: fit-content;
+    padding: 5px;
+    border-radius: var(--mainbradius);
+    max-width: 250px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 880px) {
     .messages {
         width: 300px;
         height: 330px;
@@ -318,13 +461,45 @@ input[type="checkbox"] {
 
     #sendmsgBtn {
         display: inline;
+        padding: 4px;
+        vertical-align: middle;
+        margin-left: 1em;
     }
 
     .msgbox_input {
-        width: 230px;
+        width: 280px;
+        height: 40px;
+        padding: 2px 6px;
+        font-size: 12px;
     }
 
     .msg_time {
         font-size: 9px;
+    }
+
+    .selectEmojiBtn {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .msgbox_input {
+        width: 250px;
+        margin-right: 1em;
+    }
+
+    .selectEmojiBtn {
+        display: none;
+    }
+
+    .selectFileBtn {
+        margin-left: -3.5em;
+    }
+
+    #sendmsgBtn {
+        display: inline;
+        padding: 4px;
+        vertical-align: middle;
     }
 }

@@ -5,6 +5,7 @@
 @font-face {
   src: url('../assets/RobotoMono-Regular.ttf') format('truetype');
   font-family: 'Roboto Mono';
+  font-display: swap;
 }
 
 * {

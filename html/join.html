@@ -11,18 +11,18 @@
   <link rel="apple-touch-icon" href="/assets/logo.png">
 
   <meta name="title" content="Michi">
-  <meta name="description" content="Join Michi! Michi - minimal web chat for your needs.">
+  <meta name="description" content="Join Michi! Michi - chat for your needs.">
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://">
   <meta property="og:title" content="Michi">
-  <meta property="og:description" content="Join Michi! Michi - minimal web chat for your needs.">
+  <meta property="og:description" content="Join Michi! Michi - chat for your needs.">
   <meta property="og:image" content="/assets/logo.png">
 
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://">
   <meta property="twitter:title" content="Michi">
-  <meta property="twitter:description" content="Join Michi! Michi - minimal web chat for your needs.">
+  <meta property="twitter:description" content="Join Michi! Michi - chat for your needs.">
   <meta property="twitter:image" content="/assets/logo.png">
 </head>
 
@@ -37,15 +37,20 @@
   </noscript>
   <main>
     <h1>join michi</h1>
-    <input type="text" name="mnickname" id="mnickname" placeholder="juser2306" required autocomplete="off"
+    <br>
+    <br>
+    <label for="mnickname">Nickname</label>
+    <br>
+    <input type="text" name="mnickname" id="mnickname" placeholder="super_hunter" required="" autocomplete="off"
       spellcheck="off" minlength="3" maxlength="32">
     <br>
-    <span id="randnick"></span>
     <br>
-    <input type="email" name="memail" id="memail" placeholder="coolmail@email.org" required autocomplete="off"
+    <label for="memail">E-mail</label>
+    <br>
+    <input type="email" name="memail" id="memail" placeholder="coolmail@email.org" required="" autocomplete="off"
       spellcheck="off">
     <p class="toswarn">
-      when you click this button below, this indicates what you read our <a href="./tos.html">ToS</a>
+      When you click this button below,<br>this indicates you agree with our <a href="./tos.html">ToS</a>
     </p>
     <script>
       if (!window.localStorage) {
@@ -56,8 +61,7 @@
         window.location.href = './chat.html';
       }
     </script>
-    <button class="btn-green" style="font-size: 18px; margin-top: 1em;" type="submit" id="regbtn">create me an
-      account</button>
+    <button class="btn-green" type="submit" id="regbtn">create me an account</button>
   </main>
 
   <script src="/js/join.js"></script>

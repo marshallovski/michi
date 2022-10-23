@@ -5,41 +5,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/index.css">
-  <title>home - michi</title>
+  <title>michi</title>
   <link rel="icon" href="/assets/logo.png">
 
   <link rel="apple-touch-icon" href="/assets/logo.png">
 
   <meta name="title" content="Michi">
-  <meta name="description" content="Michi - minimal web chat for your needs.">
+  <meta name="description" content="Michi - chat for your needs.">
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://">
   <meta property="og:title" content="Michi">
-  <meta property="og:description" content="Michi - minimal web chat for your needs.">
+  <meta property="og:description" content="Michi - chat for your needs.">
   <meta property="og:image" content="/assets/logo.png">
 
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://">
   <meta property="twitter:title" content="Michi">
-  <meta property="twitter:description" content="Michi - minimal web chat for your needs.">
+  <meta property="twitter:description" content="Michi - chat for your needs.">
   <meta property="twitter:image" content="/assets/logo.png">
 </head>
 
 <body>
-  <img src="/assets/logo.png" alt="logo" class="big-logo">
-  <h1>Michi</h1>
-  <p>
-    Just minimal chat in your browser
-  </p>
+  <main>
+    <img src="/assets/logo.png" alt="logo" class="big-logo">
+    <h1>Michi</h1>
+    <p>
+      Just minimal chat for your needs
+    </p>
 
-  <a href="./join.html">
-    <button class="btn-primary" id="joinbtn">
-      Join now
-    </button>
-  </a>
+    <a href="./join.html" id="joinLink">
+      <button class="btn-primary" id="joinbtn">
+        Join now
+      </button>
+    </a>
+  </main>
   <script>
-    document.getElementById('joinbtn').textContent = window.localStorage.getItem('michi_nname') && window.localStorage.getItem('michi_email') ? 'Open in browser' : 'Join now';
+    if (window.localStorage.getItem('michi_nname') && window.localStorage.getItem('michi_email')) {
+      document.getElementById('joinbtn').textContent = 'Open in browser';
+      document.getElementById('joinLink').href = './chat.html';
+    }
   </script>
 </body>
 

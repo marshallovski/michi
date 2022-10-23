@@ -9,6 +9,10 @@ body {
   color: #e8e4e6;
 }
 
+main {
+  padding: 16px;
+}
+
 h1 {
   text-align: center;
 }

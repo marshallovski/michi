@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/chat.css">
-  <title>chat - michi</title>
+  <title>general - michi</title>
   <link rel="icon" href="/assets/logo.png">
 
   <link rel="apple-touch-icon" href="/assets/logo.png">
@@ -69,14 +69,14 @@
         Menu
         <i class="mi closebtn" id="mmenuCloseBtn">close</i>
       </h2>
-      <details>
-        <summary>Channels</summary>
+      <details id="mainmenu_servers">
+        <summary>Servers</summary>
         <div id="mainmenu-channels_channelslist"></div>
       </details>
       <br>
-      <details>
+      <details id="mainmenu_settings">
         <summary>Settings</summary>
-        <label for="settings_theme" class="menu_label">Enable <b>light</b> theme</label>
+        <label for="settings_theme" class="menu_label">Enable light theme</label>
         <input type="checkbox" name="settings_theme" id="settings_theme">
         <br>
         <label for="settings_bradius" class="menu_label">Enable circled elements</label>
@@ -92,25 +92,38 @@
 
     <header>
       <i class="mi menubtn" id="openMenu">menu</i>
-      <span class="header_chname">#general</span>
+      <span class="header_chname">Michi</span>
       <i class="mi plbtn" id="openplistMenu">people</i>
     </header>
     <div class="emptych">
       <img src="./assets/poggers.jpg" alt="Welcome to Michi!" class="emptych_img">
-      <h2>It's lonely in <span class="mention">general</span>...</h2>
+      <h2>It's lonely in <span class="mention" id="emptych_chname">Michi</span>...</h2>
       <p class="subtitle" style="margin-top: 1em;">
         Maybe you could try sending some messages?
       </p>
     </div>
-    <div class="messages"></div>
 
+    <div class="msgbox_emojiMenu" id="emojiMenu">
+      <h1>Emoji&nbsp;<span style="user-select: none; cursor: pointer;"
+          onclick="$('#emojiMenu').style.display = 'none'; $('.shade').style.display = 'none';">&times;</span></h1>
+      <br>
+      <div id="emojiMenu_emoji"></div>
+    </div>
+
+    <div class="messages"></div>
     <div class="msgbox">
-      
+      <p class="msgbox_fileuploadProgress" id="fileUploadProgress">Uploading : 0%</p>
+      <br>
       <textarea type="text" id="msginput" class="msgbox_input" autocomplete="off" maxlength="216"
-        placeholder="Enter your message here"></textarea>
+        placeholder="Enter message to Michi here"></textarea>
+
+      <input type="file" name="mfileupload" id="mfileuploadform" autocomplete="off">
+
+      <button class="selectFileBtn" id="fileselectBtn"><i class="mi">attachment</i></button>
       <button id="sendmsgBtn">
         <i class="mi">send</i>
       </button>
+      <button id="emojiBtn" class="selectEmojiBtn"><i class="mi">face</i></button>
     </div>
   </main>
   <script src="./js/chat.js"></script>
