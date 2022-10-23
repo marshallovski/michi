@@ -1,5 +1,6 @@
 # Michi
-Fast and minimal chat for your needs. Powered by Node.js (ws server) and vanilla JS (client side)
+Fast and minimal chat for your needs. Powered by Node.js (ws server) and vanilla JS (client side). 
+<br>This repo includes server and own web client (in "html" folder).
 
 # Installing
 Open terminal and type `npm i`, then launch the server: `node server.js`. WebSocket server is listening **7466** port and using **JSON**. Configure the server by editing **config.json**.
