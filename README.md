@@ -1,6 +1,15 @@
 # Michi
 Fast and minimal chat for your needs. Powered by Node.js (ws server) and vanilla JS (client side)
+
 # Installing
-`npm i`, then `node server.js`. WebSocket server is listening **7465** port and using **JSON**. All service strings and port is in **config.json**.
+Open terminal and type `npm i`, then launch the server: `node server.js`. WebSocket server is listening **7466** port and using **JSON**. Configure the server by editing **config.json**.
+
+# Features
+* Custom emojis
+* Creating own servers
+* Light on server resources
+* File uploading
+* Picture and video previews
+
 # Screenshots
-![image](https://user-images.githubusercontent.com/68496774/171261723-7a8d2c54-361f-48c0-a9d9-6a26b68320e2.png)
+<img width="960" alt="scr" src="https://user-images.githubusercontent.com/68496774/197396791-ee4f972c-7c88-4e38-b2c1-f935bad3f140.png">
