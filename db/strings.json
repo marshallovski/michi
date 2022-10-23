@@ -1,0 +1,11 @@
+{
+    "unknownCmd": "Unknown command. Available commands:",
+    "serverName": "Server name:",
+    "serverDesc": "server description:",
+    "serverConnectedUsers": "connected users:",
+    "availableCmds": "Available commands:",
+    "serverIsListening": "Server is listening",
+    "connFrom": "Connected to chat from",
+    "errgh": "Please create an issue in our GitHub repository. Error:",
+    "joined": "joined"
+}

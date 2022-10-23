@@ -1,18 +1,24 @@
 {
     "host": "localhost",
-    "port": 7465,
+    "port": 7466,
     "protocol": "ws://",
     "logfilePath": "./db/messages.json",
     "serversPath": "./db/servers.json",
+    "cmdsPath": "./db/commands.json",
+    "stringsPath": "./db/strings.json",
+    "emojiPath": "./db/emoji.json",
     "service": {
-        "name": "Michi",
-        "motd": "The unofficial Michi server",
+        "name": "MichiCustom",
+        "motd": "The custom Michi server",
         "welcomerName": "Welcomer",
+        "welcomerEnabled": true,
         "badge": "system",
         "randPhrases": true,
         "randPhraseInterval": 300000,
-        "autoSubmittingInterval":  21600000,
-        "msglogging": false,
-        "fullLogging": true
+        "autoSubmittingInterval": 21600000,
+        "msglogging": true,
+        "fullLogging": false,
+        "maxMsgLength": 216,
+        "maxNicknameLength": 32
     }
 }
