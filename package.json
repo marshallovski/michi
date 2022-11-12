@@ -9,7 +9,7 @@
   },
   "name": "michiserver",
   "version": "1.0.0",
-  "description": "Michi WebSocket server",
+  "description": "Michi chat server",
   "main": "server.js",
   "repository": {
     "type": "git",

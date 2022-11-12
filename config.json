@@ -8,7 +8,7 @@
     "stringsPath": "./db/strings.json",
     "emojiPath": "./db/emoji.json",
     "service": {
-        "name": "MichiCustom",
+        "name": "michicustom",
         "motd": "The custom Michi server",
         "welcomerName": "Welcomer",
         "welcomerEnabled": true,
@@ -16,8 +16,8 @@
         "randPhrases": true,
         "randPhraseInterval": 300000,
         "autoSubmittingInterval": 21600000,
-        "msglogging": true,
-        "fullLogging": false,
+        "msglogging": false,
+        "fullLogging": true,
         "maxMsgLength": 216,
         "maxNicknameLength": 32
     }

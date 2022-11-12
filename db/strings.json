@@ -7,5 +7,6 @@
     "serverIsListening": "Server is listening",
     "connFrom": "Connected to chat from",
     "errgh": "Please create an issue in our GitHub repository. Error:",
-    "joined": "joined"
+    "joined": "joined",
+    "srvexsists": "Server with that name already exists"
 }

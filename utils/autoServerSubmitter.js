@@ -7,7 +7,7 @@ function startAutoSubmitServer(membersCount, wss) {
         name: config.service.name,
         motd: config.service.motd,
         members: membersCount,
-        icon: 'myicon',
+        icon: 'D:/other/projects/michi/michiws/assets/icon.png',
         type: 'newsrv',
         ip: `${wss.address().address}:${wss.address().port}`,
         protocol: config.protocol,
@@ -21,13 +21,13 @@ function startAutoSubmitServer(membersCount, wss) {
             name: config.service.name,
             motd: config.service.motd,
             members: membersCount,
-            icon: 'myicon',
+            icon: 'D:/other/projects/michi/michiws/assets/icon.png',
             type: 'newsrv',
             ip: `${wss.address().address}:${wss.address().port}`,
             author: `${config.service.name}@${wss.address().address}:${wss.address().port}`
         });
 
-        log(`Submitted this server as "${config.service.name}@${wss.address().address}:${wss.address().port}" !`);
+        log(`Submitted this server as "${config.service.name}@${wss.address().address}:${wss.address().port}"!`);
     }, config.service.autoSubmittingInterval);
 }
 
