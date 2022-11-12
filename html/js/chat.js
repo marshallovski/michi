@@ -9,8 +9,15 @@ if (!window.WebSocket) {
   window.location.href = 'https://www.mozilla.org/en-US/firefox/browsers/';
 }
 
+let ws;
+const fastconn = new URLSearchParams(window.location.search).get('connect');
+
+if (fastconn) ws = new WebSocket(fastconn);
+else
+  ws = new WebSocket(`${window.location.protocol === 'http:' ? 'ws://' : 'wss://'}${window.location.hostname}:7465`);
+
+
 const sendmsgBtn = $('#sendmsgBtn');
-let ws = new WebSocket(`${window.location.protocol === 'http:' ? 'ws://' : 'wss://'}${window.location.hostname}:7465`);
 
 sendmsgBtn.disabled = true;
 $('#msginput').disabled = true;
@@ -20,10 +27,25 @@ ws.onopen = async () => mopen();
 function mopen() {
   $('#msginput').disabled = false;
 
-  ws.send(JSON.stringify({ author: window.localStorage.getItem('michi_nname'), type: 'plupdate' }));
-  ws.send(JSON.stringify({ author: window.localStorage.getItem('michi_nname'), type: 'srvupdate' }));
-  ws.send(JSON.stringify({ author: window.localStorage.getItem('michi_nname'), type: 'emojisupdate' }));
-  setInterval(() => ws.send(JSON.stringify({ type: "heartbeat", author: window.localStorage.getItem('michi_nname') })), 30000);
+  ws.send(JSON.stringify({
+    author: window.localStorage.getItem('michi_nname'),
+    type: 'plupdate'
+  }));
+
+  ws.send(JSON.stringify({
+    author: window.localStorage.getItem('michi_nname'),
+    type: 'srvupdate'
+  }));
+
+  ws.send(JSON.stringify({
+    author: window.localStorage.getItem('michi_nname'),
+    type: 'emojisupdate'
+  }));
+
+  setInterval(() => ws.send(JSON.stringify({
+    type: "heartbeat",
+    author: window.localStorage.getItem('michi_nname')
+  })), 30000);
 }
 
 ws.onclose = async (event) => mclose(event);
@@ -41,7 +63,7 @@ function mclose(event) {
   <div class="msg">
   <span class="msg_author">
   Networker
-  <span class="badge">netrunner</span>
+  <span class="badge">system</span>
   </span>
   <br>
   <div class="msg_text">
@@ -74,6 +96,7 @@ function monmessage(res) {
 
             emojiElem.className = 'msgbox_emojiMenu_emoji';
             emojiElem.src = emoji.src;
+            emojiElem.title = `:${emoji.name}:`;
             emojiElem.alt = `:${emoji.name}:`;
             emojiElem.onclick = (event) => {
               ws.send(JSON.stringify({
@@ -146,7 +169,8 @@ function monmessage(res) {
             ? `<a href="${obj.fileContent}" download><img src="${obj.fileContent}" class="msg_picture"></a>` :
 
             obj.file ? `<a href="${obj.fileContent}" class="msg_fileEmbed" download> 
-            <i class="mi msg_fileEmbed-downloadIcon">download</i>${obj.fileName} 
+            <i class="mi msg_fileEmbed-downloadIcon">download</i>
+            <span class="msg_fileEmbed-fileName">${obj.fileName}</span>
             <small class="msg_fileEmbed-fileSize">${obj.fileSize}</small></a>` : ''} 
         <pre>${obj.msg ? obj.msg : ''}</pre>
         </div>`; // other file types
@@ -192,11 +216,11 @@ $('#mfileuploadform').onchange = () => {
 
   if (fsize > 5000000) { // if file size is bigger than 5MB, aborting
     $('#fileUploadProgress').style.display = 'block';
-    $('#fileUploadProgress').textContent = 'File is too big';
+    $('#fileUploadProgress').textContent = `Your file is bigger than 5MB (you're uploading ${(fsize / 1024 / 1024).toFixed(1)}MB)`;
 
     setTimeout(() => {
       $('#fileUploadProgress').style.display = 'none';
-    }, 3000);
+    }, 4000);
 
     return null;
   }

@@ -404,17 +404,22 @@ input[type="checkbox"] {
 .msgbox_emojiMenu_emoji:hover {
     transform: scale(1.5);
     padding: 3px;
-    border-radius: var(--mainbradius);
     cursor: pointer;
 }
 
 .msg_fileEmbed {
+    display: block;
     background-color: var(--headerBg);
     border: 1px solid #555;
     padding: 4px;
     border-radius: 5px;
     text-decoration: none;
-    color: #fff;
+    max-width: 200px;
+}
+
+.msg_fileEmbed-fileName {
+    font-size: 10px;
+    color: var(--headerClr);
 }
 
 .msg_fileEmbed-downloadIcon {
@@ -442,12 +447,12 @@ input[type="checkbox"] {
 
 .msgbox_fileuploadProgress {
     display: none;
-    background-color: lightcoral;
+    background-color: var(--headerClr);
     font-size: 12px;
     margin: auto;
-    color: #333;
+    color: var(--headerBg);
     width: fit-content;
-    padding: 5px;
+    padding: 17px;
     border-radius: var(--mainbradius);
     max-width: 250px;
     text-align: center;
