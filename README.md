@@ -4,7 +4,8 @@ Fast and minimal chat for your needs. Powered by Node.js (ws server) and vanilla
 
 # Installing
 Install Node.js and npm. 
-Open terminal and type `npm i`, then launch the server: `node server.js`. WebSocket server is listening **7466** port and API is using JSON. Configure the server by editing **config.json**.
+Open terminal and type `npm i`, then launch the server: `node server.js`. By default, WebSocket server is listening **7466** port and API is using JSON. File upload service by default is listening **7450** port.
+Configure the server by editing **config.json**.
 
 # Features
 * Self-hosted
