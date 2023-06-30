@@ -1,8 +1,8 @@
-exports.onHTMLEmoji = async (wss, ws, htmlEncode, parsedData, data) => {
+exports.onHTMLEmoji = async (wss, ws, escapeHTML, parsedData, data) => {
     wss.clients.forEach(client => {
         if (ws.bufferedAmount === 0)
             client.send(JSON.stringify({
-                author: htmlEncode(Buffer.from(parsedData(data).author, 'base64').toString()),
+                author: escapeHTML(Buffer.from(parsedData(data).author, 'base64').toString()),
                 type: 'msg',
                 emoji: true,
                 time: `${new Date().toLocaleDateString()}, ${new Date().toLocaleTimeString()}`,

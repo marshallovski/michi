@@ -1,4 +1,4 @@
-exports.onMessage = async (ws, wss, parsedData, data, config, editJsonFile, log, req, htmlEncode) => {
+exports.onMessage = async (ws, wss, parsedData, data, config, editJsonFile, log, req, escapeHTML) => {
     if (!parsedData(data).msg || parsedData(data).msg.length === 0 || !parsedData(data).msg.match(/\S/))
         return ws.send(JSON.stringify({ type: 'err', msg: 'Cannot send an empty message.' }));
 
@@ -23,9 +23,10 @@ exports.onMessage = async (ws, wss, parsedData, data, config, editJsonFile, log,
     wss.clients.forEach(client => {
         if (ws.bufferedAmount === 0)
             client.send(JSON.stringify({
-                author: htmlEncode(Buffer.from(parsedData(data).author, 'base64').toString()),
-                msg: htmlEncode(parsedData(data).msg),
+                author: escapeHTML(Buffer.from(parsedData(data).author, 'base64').toString()),
+                msg: escapeHTML(parsedData(data).msg),
                 type: 'msg',
+                textMessage: true,
                 time: `${new Date().toLocaleDateString()}, ${new Date().toLocaleTimeString()}`,
                 badge: null,
                 pcount: wss.clients.size

@@ -8,6 +8,7 @@ exports.onChatCommand = async (parsedData, data, ws, config, strings, users, wss
                     author: config.service.name,
                     msg: `${strings.availableCmds} ${cmdList.join(', ')}`,
                     type: 'msg',
+                    textMessage: true,
                     time: `${new Date().toLocaleDateString()}, ${new Date().toLocaleTimeString()}`,
                     badge: config.service.badge
                 }));
@@ -19,6 +20,7 @@ exports.onChatCommand = async (parsedData, data, ws, config, strings, users, wss
                     author: config.service.name,
                     msg: `${strings.serverConnectedUsers} ${connectedUsers(users)}`,
                     type: 'msg',
+                    textMessage: true,
                     time: `${new Date().toLocaleDateString()}, ${new Date().toLocaleTimeString()}`,
                     badge: config.service.badge
                 }));
@@ -30,6 +32,7 @@ exports.onChatCommand = async (parsedData, data, ws, config, strings, users, wss
                     author: config.service.name,
                     msg: `${strings.serverName} ${config.service.name}\n${strings.serverDesc}\n${config.service.motd}\n${strings.serverConnectedUsers} ${wss.clients.size}`,
                     type: 'msg',
+                    textMessage: true,
                     time: `${new Date().toLocaleDateString()}, ${new Date().toLocaleTimeString()}`,
                     badge: config.service.badge
                 }));
@@ -41,6 +44,7 @@ exports.onChatCommand = async (parsedData, data, ws, config, strings, users, wss
                     author: config.service.name,
                     msg: `${strings.unknownCmd} ${cmdList.join(', ')}`,
                     type: 'msg',
+                    textMessage: true,
                     time: `${new Date().toLocaleDateString()}, ${new Date().toLocaleTimeString()}`,
                     badge: config.service.badge
                 }));

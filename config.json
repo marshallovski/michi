@@ -8,17 +8,24 @@
     "stringsPath": "./db/strings.json",
     "emojiPath": "./db/emoji.json",
     "service": {
-        "name": "michicustom",
-        "motd": "The custom Michi server",
+        "name": "mymichi",
+        "motd": "The 3rd-party Michi server",
         "welcomerName": "Welcomer",
         "welcomerEnabled": true,
         "badge": "system",
-        "randPhrases": true,
+        "randPhrases": false,
         "randPhraseInterval": 300000,
         "autoSubmittingInterval": 21600000,
-        "msglogging": false,
-        "fullLogging": true,
+        "msglogging": true,
+        "fullLogging": false,
         "maxMsgLength": 216,
-        "maxNicknameLength": 32
+        "maxNicknameLength": 32,
+        "fileUpload": {
+            "maxFileSize": 29000000,
+            "host": "localhost",
+            "port": "7450",
+            "userUploadsFolder": "/home/michi/useruploads",
+            "sslEnabled": false
+        }
     }
 }

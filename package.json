@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "edit-json-file": "^1.7.0",
+    "mime": "^3.0.0",
     "ws": "^8.6.0"
   },
   "scripts": {
@@ -9,7 +10,7 @@
   },
   "name": "michiserver",
   "version": "1.0.0",
-  "description": "Michi chat server",
+  "description": "Michi 3rd-party server",
   "main": "server.js",
   "repository": {
     "type": "git",
