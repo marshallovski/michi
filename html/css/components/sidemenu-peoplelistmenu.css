@@ -1,0 +1,23 @@
+.plistmenu {
+    z-index: 999;
+    background-color: #252525;
+    color: #dbdbdb;
+    position: fixed;
+    text-align: center;
+    height: 100vh;
+    padding: 8px;
+    right: 0;
+    width: 245px;
+    overflow: scroll;
+    scrollbar-width: thin;
+}
+
+.plmembers .mention {
+    margin-top: 6px;
+    border: 1px solid #fff;
+}
+
+.plbtn {
+    float: right;
+    cursor: pointer;
+}

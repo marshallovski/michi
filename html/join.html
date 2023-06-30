@@ -53,12 +53,12 @@
       When you click this button below,<br>this indicates you agree with our <a href="./tos.html">ToS</a>
     </p>
     <script>
-      if (!window.localStorage) {
+      if (!localStorage) {
         alert('Sorry but Michi required access to localStorage to write user data');
       }
 
-      if (window.localStorage.getItem('michi_nname') && window.localStorage.getItem('michi_email')) {
-        window.location.href = './chat.html';
+      if (localStorage.getItem('michi_nname') && localStorage.getItem('michi_email')) {
+        location.href = './chat.html';
       }
     </script>
     <button class="btn-green" type="submit" id="regbtn">create me an account</button>

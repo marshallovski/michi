@@ -1,0 +1,111 @@
+.messages {
+    display: block;
+    margin: auto;
+    overflow-y: scroll;
+    height: max-content;
+    width: 500px;
+    scrollbar-width: thin;
+}
+
+.msg {
+    margin-top: 1em;
+}
+
+.msg_author {
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 1em;
+}
+
+.msg_msgactions_icon {
+    font-size: 18px;
+    color: #dbdbdb;
+    display: inline-block;
+}
+
+.msg_text {
+    font-size: 12px;
+    margin-left: 20px;
+    max-width: 250px;
+}
+
+.msg_textContent {
+    white-space: break-spaces;
+}
+
+.msg_time {
+    font-size: 10px;
+    color: #555;
+    font-weight: 400;
+    float: right;
+    margin-right: 2em;
+    margin-top: 5px;
+}
+
+.msg_badge {
+    background-color: dodgerblue;
+    border-radius: var(--mainbradius);
+    padding: 1px 7px;
+    line-height: 1.0;
+    font-size: 10px;
+    margin-left: 1em;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: 1px;
+    cursor: default;
+    user-select: none;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.msg_fileEmbed {
+    display: block;
+    background-color: var(--headerBg);
+    border: 1px solid #555;
+    padding: 4px;
+    border-radius: 5px;
+    text-decoration: none;
+    max-width: 200px;
+}
+
+.msg_fileEmbed-fileName {
+    font-size: 10px;
+    color: var(--headerClr);
+    text-overflow: ellipsis;
+    width: 110px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align:middle ;
+}
+
+.msg_fileEmbed-downloadIcon {
+    font-size: 20px;
+    color: dodgerblue;
+}
+
+.msg_fileEmbed-fileSize {
+    color: #777;
+    vertical-align: 10%;
+    margin-left: 20px;
+}
+
+.msg_picture {
+    max-width: 290px;
+    max-height: 280px;
+    border-radius: 8px;
+}
+
+.msg_video {
+    max-width: 250px;
+    max-height: 270px;
+    border-radius: 3px;
+}
+
+.msg_mention {
+    background: rgba(114, 137, 218, 0.4);
+    border-radius: var(--mainbradius);
+    padding: 2px;
+}

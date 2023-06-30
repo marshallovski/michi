@@ -9,7 +9,7 @@ const plistMenu = document.querySelector('.plistmenu');
 const plistBtn = document.getElementById('openplistMenu');
 const fontSelect = $('#settings_font');
 
-const mtheme = {
+let mtheme = {
   light: {
     body: {
       bg: '#d9d9dd',
@@ -33,17 +33,12 @@ const mtheme = {
 }
 
 function setTheme(colorScheme) {
-  if (colorScheme === 'dark') {
-    document.querySelector('body').style.backgroundColor = mtheme.dark.body.bg;
-    document.querySelector('body').style.color = mtheme.dark.body.clr;
-    document.querySelector('body').style.setProperty('--headerBg', mtheme.dark.header.bg);
-    document.querySelector('body').style.setProperty('--headerClr', mtheme.dark.header.clr);
-  } else if (colorScheme === 'light') {
-    document.querySelector('body').style.backgroundColor = mtheme.light.body.bg;
-    document.querySelector('body').style.color = mtheme.light.body.clr;
-    document.querySelector('body').style.setProperty('--headerBg', mtheme.light.header.bg);
-    document.querySelector('body').style.setProperty('--headerClr', mtheme.light.header.clr);
-  } else return console.error('Unknown theme. Available themes: "dark", "light". You can create custom themes by adding your theme to mtheme object.');
+  if (mtheme[colorScheme]) {
+    document.querySelector('body').style.backgroundColor = mtheme[colorScheme].body.bg;
+    document.querySelector('body').style.color = mtheme[colorScheme].body.clr;
+    document.querySelector('body').style.setProperty('--headerBg', mtheme[colorScheme].header.bg);
+    document.querySelector('body').style.setProperty('--headerClr', mtheme[colorScheme].header.clr);
+  } else return console.error('Unknown theme scheme. You can create custom themes by adding your theme to `mtheme` object.');
 }
 
 menubtn.onclick = function () {

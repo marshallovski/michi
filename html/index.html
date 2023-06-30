@@ -41,7 +41,7 @@
     </a>
   </main>
   <script>
-    if (window.localStorage.getItem('michi_nname') && window.localStorage.getItem('michi_email')) {
+    if (localStorage.getItem('michi_nname') && localStorage.getItem('michi_email')) {
       document.getElementById('joinbtn').textContent = 'Open in browser';
       document.getElementById('joinLink').href = './chat.html';
     }

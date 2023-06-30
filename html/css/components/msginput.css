@@ -1,0 +1,133 @@
+/* 
+msginput also known as msgbox
+this file includes styles for:
+
+message input
+"send message" button
+"select emoji" button
+"select file" button
+emoji dialog
+file upload dialog
+*/
+
+.msgbox {
+    padding: 16px;
+    text-align: center;
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    padding: 8px;
+}
+
+.msgbox_input {
+    padding: 8px;
+    border-radius: var(--mainbradius);
+    width: 400px;
+    font-size: 14px;
+    border: 1px solid #555;
+    background-color: var(--headerBg);
+    color: var(--headerClr);
+    vertical-align: middle;
+    resize: none;
+    scrollbar-width: thin;
+}
+
+.msgbox_input:hover {
+    border: 1px solid #777;
+}
+
+.msgbox_input:focus {
+    border: 1px solid #999;
+}
+
+.msgbox_input:disabled {
+    border: 0;
+    cursor: not-allowed;
+}
+
+#sendmsgBtn {
+    display: none;
+    border: 0;
+    background-color: royalblue;
+    padding: 5px;
+    color: #fff;
+    margin-left: .2em;
+    line-height: 1.0;
+    border-radius: var(--mainbradius);
+}
+
+#sendmsgBtn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.selectEmojiBtn {
+    background-color: transparent;
+    line-height: 1.0;
+    padding: 3px;
+    border-radius: var(--mainbradius);
+    color: var(--headerClr);
+    margin-left: -5em;
+}
+
+.selectFileBtn {
+    background-color: transparent;
+    line-height: 1.0;
+    padding: 3px;
+    border-radius: var(--mainbradius);
+    color: var(--headerClr);
+    margin-left: -3em;
+}
+
+.selectFileBtn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+#mfileuploadform {
+    display: none;
+}
+
+.selectEmojiBtn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.msgbox_emojiMenu {
+    background-color: var(--headerBg);
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    padding: 16px;
+    border: 1px solid #555;
+    border-radius: var(--mainbradius);
+    position: fixed;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.msgbox_emojiMenu_emoji {
+    width: 35px;
+    margin: 8px;
+}
+
+.msgbox_emojiMenu_emoji:hover {
+    transform: scale(1.5);
+    padding: 3px;
+    cursor: pointer;
+}
+
+.msgbox_fileuploadProgress {
+    display: none;
+    background-color: var(--headerClr);
+    font-size: 12px;
+    margin: auto;
+    color: var(--headerBg);
+    width: fit-content;
+    padding: 17px;
+    border-radius: var(--mainbradius);
+    max-width: 250px;
+    text-align: center;
+}

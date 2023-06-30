@@ -4,7 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/chat-base.css">
   <link rel="stylesheet" href="./css/chat.css">
+  <link rel="stylesheet" href="./css/components/message.css">
+  <link rel="stylesheet" href="./css/components/msginput.css">
+  <link rel="stylesheet" href="./css/components/sidemenu-mainmenu.css">
+  <link rel="stylesheet" href="./css/components/sidemenu-peoplelistmenu.css">
+
   <title>general - michi</title>
   <link rel="icon" href="/assets/logo.png">
 
@@ -14,21 +20,36 @@
   <meta name="description" content="Michi - minimal web chat for your needs.">
 
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://">
   <meta property="og:title" content="Michi">
   <meta property="og:description" content="Michi - minimal web chat for your needs.">
   <meta property="og:image" content="/assets/logo.png">
 
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://">
   <meta property="twitter:title" content="Michi">
   <meta property="twitter:description" content="Michi - minimal web chat for your needs.">
   <meta property="twitter:image" content="/assets/logo.png">
   <style>
-    .shade,
-    .mainmenu,
-    .plistmenu {
-      display: none;
+    @font-face {
+      src: url('../assets/RobotoMono-Regular.ttf') format('truetype');
+      font-family: 'Roboto Mono';
+      font-style: normal;
+      font-weight: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      src: url('../assets/MI.woff2') format('woff2');
+      font-family: 'MI';
+      font-style: normal;
+      font-weight: normal;
+    }
+
+    @font-face {
+      src: url('../assets/NotoSans-Regular.ttf') format('truetype');
+      font-family: 'Noto Sans';
+      font-style: normal;
+      font-weight: normal;
+      font-display: swap;
     }
   </style>
 </head>
@@ -48,26 +69,26 @@
     <h1>Sorry, but you need to enable JavaScript in your browser.</h1>
   </noscript>
   <script>
-    if (!window.localStorage)
-      alert('Sorry but Michi required access to localStorage to read user config');
+    if (!localStorage)
+      alert('Sorry but Michi requires access to localStorage to read user config');
 
-    if (!window.localStorage.getItem('michi_nname') || !window.localStorage.getItem('michi_email'))
-      window.location.href = '/join.html';
+    if (!localStorage.getItem('michi_nname') || !localStorage.getItem('michi_email'))
+      location.href = '/join.html';
   </script>
-  <div class="shade"></div>
+  <div class="shade" hidden></div>
   <main>
-    <div class="plistmenu">
+    <div class="plistmenu" hidden>
       <h3>
         <span id="plist_memberscount">Total 0 members</span>
-        <i class="mi closebtn" id="plmenuCloseBtn">close</i>
+        <i class="mi closebtn" id="plmenuCloseBtn" translate="no">close</i>
       </h3>
       <br>
       <div class="plmembers" id="plmembers"></div>
     </div>
-    <div class="mainmenu">
+    <div class="mainmenu" hidden>
       <h2>
         Menu
-        <i class="mi closebtn" id="mmenuCloseBtn">close</i>
+        <i class="mi closebtn" id="mmenuCloseBtn" translate="no">close</i>
       </h2>
       <details id="mainmenu_servers">
         <summary>Servers</summary>
@@ -91,9 +112,9 @@
     </div>
 
     <header>
-      <i class="mi menubtn" id="openMenu">menu</i>
+      <i class="mi menubtn" id="openMenu" translate="no">menu</i>
       <span class="header_chname">michi</span>
-      <i class="mi plbtn" id="openplistMenu">people</i>
+      <i class="mi plbtn" id="openplistMenu" translate="no">people</i>
     </header>
     <div class="emptych">
       <img src="./assets/poggers.jpg" alt="Welcome to Michi!" class="emptych_img">
@@ -103,9 +124,14 @@
       </p>
     </div>
 
-    <div class="msgbox_emojiMenu" id="emojiMenu">
-      <h1>Emoji&nbsp;<span style="user-select: none; cursor: pointer;"
-          onclick="$('#emojiMenu').style.display = 'none'; $('.shade').style.display = 'none';">&times;</span></h1>
+    <div class="msgbox_emojiMenu" id="emojiMenu" hidden>
+      <h1>
+        Emoji
+        <span style="user-select: none; cursor: pointer;" class="closebtn"
+          onclick="$('#emojiMenu').style.display = 'none'; $('.shade').style.display = 'none';">
+          &#10006;
+        </span>
+      </h1>
       <br>
       <div id="emojiMenu_emoji"></div>
     </div>
@@ -119,13 +145,15 @@
 
       <input type="file" name="mfileupload" id="mfileuploadform" autocomplete="off">
 
-      <button class="selectFileBtn" id="fileselectBtn"><i class="mi">attachment</i></button>
+      <button class="selectFileBtn" id="fileselectBtn"><i class="mi" translate="no">attachment</i></button>
       <button id="sendmsgBtn">
-        <i class="mi">send</i>
+        <i class="mi" translate="no">send</i>
       </button>
-      <button id="emojiBtn" class="selectEmojiBtn"><i class="mi">face</i></button>
+      <button id="emojiBtn" class="selectEmojiBtn"><i class="mi" translate="no">face</i></button>
     </div>
   </main>
+  <script src="./js/utils/generateID.js"></script>
+  <script src="./js/utils/clearElemTree.js"></script>
   <script src="./js/chat.js"></script>
   <script src="./js/chatmisc.js"></script>
 </body>

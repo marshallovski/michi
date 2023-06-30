@@ -61,9 +61,9 @@ submBtn.onclick = async () => {
 
   if (nnBox.validity.valid && emailBox.validity.valid) {
     try {
-      window.localStorage.setItem('michi_nname', btoa(nnBox.value));
-      window.localStorage.setItem('michi_email', btoa(emailBox.value));
-      window.location.href = './chat.html';
+      localStorage.setItem('michi_nname', btoa(nnBox.value));
+      localStorage.setItem('michi_email', btoa(emailBox.value));
+      location.href = './chat.html';
     } catch {
       return alert('Please use only latin (english) letters.');
     }

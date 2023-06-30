@@ -1,0 +1,78 @@
+:root {
+    --mainbradius: 5px;
+    --avatarbradius: 5px;
+    --font: 'Noto Sans', sans-serif;
+    --headerBg: #222;
+    --headerClr: #eee;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+    transition: all 300ms;
+}
+
+select,
+option,
+button {
+    cursor: pointer;
+}
+
+.mi {
+    font-family: 'MI';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    vertical-align: middle;
+    user-select: none;
+}
+
+details,
+summary,
+input,
+button,
+select,
+textarea,
+img {
+    outline: none;
+    border: 0;
+}
+
+summary {
+    cursor: pointer;
+    padding: .3em;
+    user-select: none;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #555;
+    margin-bottom: .5em;
+}
+
+details {
+    border: 1px solid #444;
+    padding: 4px;
+    width: 200px;
+    padding: 8px;
+    border-radius: var(--mainbradius);
+    margin-top: 1em;
+}
+
+input[type="checkbox"] {
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+    color: #fff;
+}
+
+@media (prefers-reduced-motion) {
+    * {
+        transition: none !important;
+    }
+}
