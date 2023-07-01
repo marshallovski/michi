@@ -10,7 +10,7 @@
   },
   "name": "michiserver",
   "version": "1.0.0",
-  "description": "Michi 3rd-party server",
+  "description": "3rd-party Michi server",
   "main": "server.js",
   "repository": {
     "type": "git",

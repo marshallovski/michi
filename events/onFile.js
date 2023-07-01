@@ -22,6 +22,7 @@ exports.onFile = async (ws, wss, escapeHTML, parsedData, data, config) => {
                 type: 'msg',
                 time: `${new Date().toLocaleDateString()}, ${new Date().toLocaleTimeString()}`,
                 file: true,
+                ok: true,
                 fileContent: `${config.service.fileUpload.sslEnabled ? 'https' : 'http'}://${config.service.fileUpload.host}:${config.service.fileUpload.port}/uploads/?fileName=${parsedData(data).fileName}`,
                 fileName: parsedData(data).fileName,
                 fileSize: formatBytes(parsedData(data).fileSize, 1)

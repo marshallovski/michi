@@ -1,4 +1,3 @@
-exports.onNewServer = require('./onNewServer').onNewServer;
 exports.onPlUpdate = require('./onPlUpdate').onPlUpdate;
 exports.onServerUpdate = require('./onServerUpdate').onServerUpdate;
 exports.onHTMLEmoji = require('./onHTMLEmoji').onHTMLEmoji;

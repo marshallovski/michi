@@ -80,6 +80,10 @@ wss.on('connection', async (ws, req) => {
                 }));
                 break;
 
+            // case 'editmsg':
+            //     await events.onEditMessage(ws, parsedData, data);
+            //     break;
+
             default:
                 if (ws.bufferedAmount === 0)
                     ws.send(JSON.stringify({

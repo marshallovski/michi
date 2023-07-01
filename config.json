@@ -8,8 +8,8 @@
     "stringsPath": "./db/strings.json",
     "emojiPath": "./db/emoji.json",
     "service": {
-        "name": "mymichi",
-        "motd": "The 3rd-party Michi server",
+        "name": "michi",
+        "motd": "3rd-party Michi server",
         "welcomerName": "Welcomer",
         "welcomerEnabled": true,
         "badge": "system",
