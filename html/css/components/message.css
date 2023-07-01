@@ -2,7 +2,7 @@
     display: block;
     margin: auto;
     overflow-y: scroll;
-    height: max-content;
+    height: 450px;
     width: 500px;
     scrollbar-width: thin;
 }

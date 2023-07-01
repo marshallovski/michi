@@ -276,8 +276,11 @@ function monmessage(res) {
           messageContent.append(audioElem);
           break;
 
-        // picture
-        case obj.file && obj.fileName.endsWith('.png') || obj.file && obj.fileName.endsWith('.jpg'):
+        // pictures
+        case obj.file && obj.fileName.endsWith('.png') || 
+        obj.file && obj.fileName.endsWith('.jpg') || 
+        obj.file && obj.fileName.endsWith('.gif') || 
+        obj.file && obj.fileName.endsWith('.webp'):
           // creating clickable image and image itself  
 
           // link
@@ -367,24 +370,6 @@ function monmessage(res) {
   }
 }
 
-$('#msginput').oninput = () => {
-  sendmsgBtn.disabled = false;
-  if ($('#msginput').value.length > 0) $('#emojiBtn').style.display = 'none';
-  else $('#emojiBtn').style.display = 'inline';
-}
-
-$('#emojiBtn').onclick = () => {
-  if ($('#emojiMenu').style.display === 'block') {
-    $('.shade').style.display = 'none';
-    return $('#emojiMenu').style.display = 'none';
-  }
-
-  $('#emojiMenu').style.display = 'block';
-  return $('.shade').style.display = 'block';
-}
-
-$('#fileselectBtn').onclick = () => $('#mfileuploadform').click();
-
 $('#mfileuploadform').onchange = () => {
   const fsize = $('#mfileuploadform').files[0].size;
 
@@ -432,13 +417,14 @@ $('#mfileuploadform').onchange = () => {
   }
 }
 
-
 function sendMsgTouch(event) {
   sendmsgBtn.disabled = true;
   const maxmsglen = _limits.maxMessageLength;
 
-  if (!$('#msginput').value.match(/\S/))
+  if (!$('#msginput').value.match(/\S/)) {
     sendmsgBtn.disabled = false;
+    sendmsgBtn.style.display = 'inline'
+  }
 
   if (!event.shiftKey) {
     if ($('#msginput').value.length > maxmsglen) {
@@ -483,8 +469,7 @@ function sendMsgTouch(event) {
       type: 'msg',
       textMessage: true,
       msg: $('#msginput').value,
-      author: localStorage.getItem('michi_nname'),
-      msgAuthor: localStorage.getItem('michi_nname')
+      author: localStorage.getItem('michi_nname')
     }));
 
     $('#msginput').value = '';

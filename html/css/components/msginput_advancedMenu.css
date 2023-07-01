@@ -1,0 +1,17 @@
+.mobile_miscbtn {
+    border-radius: var(--mainbradius);
+    padding: 5px;
+    line-height: 1.0;
+    color: #eee;
+    background-color: #4f5257;
+    margin-left: 1em;
+}
+
+.msgbox_advancedmenu {
+    background-color: rgba(34, 34, 34, 0.7);
+    color: var(--headerClr);
+    border-radius: var(--mainbradius);
+    padding: 8px;
+    width: fit-content;
+    margin: auto;
+}

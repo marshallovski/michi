@@ -65,6 +65,11 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
+:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
 h1,
 h2,
 h3 {
@@ -74,5 +79,6 @@ h3 {
 @media (prefers-reduced-motion) {
     * {
         transition: none !important;
+        box-shadow: none !important;
     }
 }

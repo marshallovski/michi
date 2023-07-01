@@ -111,9 +111,41 @@ fontSelect.onchange = function () {
   window.localStorage.setItem('michi_font', btoa(fontSelect.value));
   fontSelect.setAttribute('data-font', fontSelect.value);
   fontSelect.value = atob(window.localStorage.getItem('michi_font'));
-  document.querySelector('*').style.setProperty('--font', atob(window.localStorage.getItem('michi_font')));
+  document.querySelector('html').style.setProperty('--font', atob(window.localStorage.getItem('michi_font')));
 }
 
-document.querySelector('*').style.setProperty('--font', atob(window.localStorage.getItem('michi_font')));
+document.querySelector('html').style.setProperty('--font', atob(window.localStorage.getItem('michi_font')));
 
+const miscButton = $('#mobile-miscBtn');
+const miscButtonsContainer = $('#miscButtons-container');
+let showen = miscButtonsContainer.style.display === 'block';
 
+miscButton.onclick = () => {
+  if (miscButtonsContainer && miscButtonsContainer.style.display === 'block')
+    miscButtonsContainer.style.display = 'none';
+  else
+    miscButtonsContainer.style.display = 'block';
+  miscButtonsContainer.style.margin = 'auto';
+}
+
+$('#msginput').oninput = () => {
+  sendmsgBtn.disabled = false;
+  sendmsgBtn.style.display = 'inline';
+}
+
+$('#fileselectBtn').onclick = () => {
+  miscButtonsContainer.style.display = 'none';
+  $('#mfileuploadform').click();
+}
+
+$('#emojiBtn').onclick = () => {
+  miscButtonsContainer.style.display = 'none';
+  if ($('#emojiMenu').style.display === 'block') {
+    $('.shade').style.display = 'none';
+
+    return $('#emojiMenu').style.display = 'none';
+  }
+
+  $('#emojiMenu').style.display = 'block';
+  return $('.shade').style.display = 'block';
+}

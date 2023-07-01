@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./css/chat.css">
   <link rel="stylesheet" href="./css/components/message.css">
   <link rel="stylesheet" href="./css/components/msginput.css">
+  <link rel="stylesheet" href="./css/components/msginput_advancedMenu.css">
   <link rel="stylesheet" href="./css/components/sidemenu-mainmenu.css">
   <link rel="stylesheet" href="./css/components/sidemenu-peoplelistmenu.css">
 
@@ -140,16 +141,21 @@
     <div class="msgbox">
       <p class="msgbox_fileuploadProgress" id="fileUploadProgress">Uploading : 0%</p>
       <br>
-      <textarea type="text" id="msginput" class="msgbox_input" autocomplete="off" maxlength="216"
+        <div class="msgbox_advancedmenu" id="miscButtons-container" hidden>
+          <button id="emojiBtn" class="selectEmojiBtn"><i class="mi" translate="no">face</i></button>
+          <button class="selectFileBtn" id="fileselectBtn"><i class="mi" translate="no">attachment</i></button>
+        </div>
+      <br>
+      <textarea type="text" id="msginput" class="msgbox_input" autocomplete="off" maxlength="216" spellcheck="false"
         placeholder="Enter message to Michi here"></textarea>
 
       <input type="file" name="mfileupload" id="mfileuploadform" autocomplete="off">
 
-      <button class="selectFileBtn" id="fileselectBtn"><i class="mi" translate="no">attachment</i></button>
+      <button id="mobile-miscBtn" class="mobile_miscbtn"><i class="mi" translate="no">more_horiz</i></button>
+
       <button id="sendmsgBtn">
         <i class="mi" translate="no">send</i>
       </button>
-      <button id="emojiBtn" class="selectEmojiBtn"><i class="mi" translate="no">face</i></button>
     </div>
   </main>
   <script src="./js/utils/generateID.js"></script>

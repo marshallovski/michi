@@ -61,7 +61,7 @@ header {
     border: 2px solid #999;
 }
 
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 600px) {
     .messages {
         width: 300px;
         height: 330px;
@@ -69,40 +69,28 @@ header {
 
     #sendmsgBtn {
         display: inline;
-        padding: 4px;
         vertical-align: middle;
         margin-left: 1em;
+        border-radius: var(--mainbradius);
     }
 
     .msgbox_input {
-        width: 280px;
-        height: 40px;
+        width: 250px !important;
+        height: 35px;
         padding: 2px 6px;
         font-size: 12px;
+        border-radius: var(--mainbradius);
     }
 
     .msg_time {
         font-size: 9px;
     }
-
-    .selectEmojiBtn {
-        display: none;
-    }
-
 }
 
 @media only screen and (max-width: 400px) {
     .msgbox_input {
         width: 250px;
         margin-right: 1em;
-    }
-
-    .selectEmojiBtn {
-        display: none;
-    }
-
-    .selectFileBtn {
-        margin-left: -3.5em;
     }
 
     #sendmsgBtn {
