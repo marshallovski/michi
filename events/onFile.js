@@ -15,7 +15,6 @@ exports.onFile = async (ws, wss, escapeHTML, parsedData, data, config) => {
         }));
     }
 
-    if (ws.bufferedAmount === 0)
         wss.clients.forEach(client => {
             client.send(JSON.stringify({
                 author: escapeHTML(Buffer.from(parsedData(data).author, 'base64').toString()),
