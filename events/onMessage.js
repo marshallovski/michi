@@ -21,7 +21,6 @@ exports.onMessage = async (ws, wss, parsedData, data, config, editJsonFile, log,
 
     // sending message to all
     wss.clients.forEach(client => {
-        if (ws.bufferedAmount === 0)
             client.send(JSON.stringify({
                 author: escapeHTML(Buffer.from(parsedData(data).author, 'base64').toString()),
                 msg: escapeHTML(parsedData(data).msg),
