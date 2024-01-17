@@ -85,7 +85,6 @@ wss.on('connection', async (ws, req) => {
             //     break;
 
             default:
-                if (ws.bufferedAmount === 0)
                     ws.send(JSON.stringify({
                         type: 'err',
                         err: true,
@@ -105,7 +104,6 @@ wss.on('connection', async (ws, req) => {
         // sends random phrase from ./db/randphrases.json 
         // every X ms (see "randPhrasesInterval" at ./config.json)
         setInterval(() => {
-            if (ws.bufferedAmount === 0)
                 ws.send(JSON.stringify({
                     author: config.service.name,
                     msg: phrases[Math.floor(Math.random() * phrases.length)],
