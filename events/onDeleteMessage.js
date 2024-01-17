@@ -1,6 +1,5 @@
 exports.onDeleteMessage = async (ws, wss, parsedData, data) => {
     if (parsedData(data).author === parsedData(data).msgAuthor) {
-        if (ws.bufferedAmount === 0)
             wss.clients.forEach(client => {
                 client.send(
                     JSON.stringify({
@@ -12,7 +11,6 @@ exports.onDeleteMessage = async (ws, wss, parsedData, data) => {
                 );
             });
     } else {
-        if (ws.bufferedAmount === 0)
             ws.send(
                 JSON.stringify({
                     type: 'err',
